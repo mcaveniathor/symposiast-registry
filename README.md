@@ -4,6 +4,10 @@ Release-specific Rust crate guidance for [Symposium](https://symposium.dev/), ge
 
 Browse the [registry website](https://mcaveniathor.github.io/symposiast-registry/), [submit an entry](CONTRIBUTING.md#submit-verified-guidance), or [request a crate/release](https://github.com/mcaveniathor/symposiast-registry/issues/new?template=guidance-request.yml).
 
+This is an independent community registry, separate from [Symposium's official recommendations](https://github.com/symposium-dev/recommendations). Entries here require an explicit subscription and do not imply upstream acceptance or endorsement. Symposiast generates and maintains the guidance; Symposium distributes it.
+
+**Maintaining a crate?** [Start a pilot](https://mcaveniathor.github.io/symposiast/maintainers.html) for one release and a few real user tasks. **Using guidance?** [Try it on a task](https://mcaveniathor.github.io/symposiast-registry/subscribe.html#4-try-a-real-task) and [share first or repeat use](https://github.com/mcaveniathor/symposiast-registry/issues/new?template=usage-feedback.yml).
+
 ## Catalog
 
 | Crate | Release | Recipes | Verification | Guidance |
@@ -33,6 +37,8 @@ The Stucco skill matches `stucco==0.2.1`. Each release's skill has a distinct id
 
 Symposium 0.5.1 has been checked with a relocated registry and isolated Claude Code and Codex configurations, including repeated sync and removal after a version mismatch. Confirm the resolved version and source in your own workspace before applying a recipe. Avoid installing both this entry and the full runtime plugin for the same release in one workspace, since they share the skill identity.
 
+After syncing, reload your agent session if needed and ask it to consult the installed release skill for a concrete task. Check that it actually used a finding or recipe, adapt the example to your features, and run your project's checks. If no entry matches, request your release rather than changing dependencies just to activate guidance. The [installation guide](https://mcaveniathor.github.io/symposiast-registry/subscribe.html) includes a Stucco task and troubleshooting steps.
+
 ## Evidence and verification
 
 The skill includes all frozen evidence and a [provenance record](stucco-0-2-1/skills/stucco-0a431c79-guide/references/provenance.json), including source URLs and hashes, original release metadata, compilation fingerprints, and dependency lockfiles. Paths in the record are relative to its directory. Compilation establishes that the recorded recipe inputs passed Cargo checks; it does not establish runtime behavior. The original bundle schema does not record the verification platform.
@@ -46,8 +52,13 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) for the complete generation, verificatio
 - **Have guidance to share?** Fork the registry, export a verified bundle into a new entry directory, update `catalog.json`, run the checks, and submit a pull request.
 - **Need a crate or release?** Search [existing issues](https://github.com/mcaveniathor/symposiast-registry/issues), then [request guidance](https://github.com/mcaveniathor/symposiast-registry/issues/new?template=guidance-request.yml). Include the package, version, tasks, and feature/platform requirements. No bundle is needed to make a request.
 - **Found incorrect guidance?** [Report a correction](https://github.com/mcaveniathor/symposiast-registry/issues/new?template=correction.yml) with the entry, recipe/finding, and reproduction.
+- **Tried it in a project?** [Report first or repeat use](https://github.com/mcaveniathor/symposiast-registry/issues/new?template=usage-feedback.yml), including failed setup attempts. Installation, agent consultation, and task success are distinct observations; a short public-safe description is enough.
 
 Different crate releases stay in separate directories. Corrections get a new registry commit and bundle revision; published archives are not replaced. Requests do not guarantee coverage or a delivery date.
+
+## Help improve guidance
+
+Help improve Symposiast and the registry by reviewing recipes, reporting corrections, maintaining coverage, or sharing a useful release with other developers. [Join a maintainer pilot](https://mcaveniathor.github.io/symposiast/maintainers.html) to help make guidance useful across repeated tasks and releases.
 
 ## Registry and site development
 

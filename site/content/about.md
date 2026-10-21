@@ -2,6 +2,14 @@
 
 Symposiast Registry is a community collection of release-specific Rust crate guidance for [Symposium](https://symposium.dev/). [Symposiast](https://github.com/mcaveniathor/symposiast) collects published source and pinned repository evidence, produces practical findings and recipes, and verifies consumer examples before exporting portable skills.
 
+## Part of the Symposium ecosystem
+
+This registry is an independent source that users subscribe to explicitly. Symposium maintains its own [official recommendations](https://github.com/symposium-dev/recommendations), enabled by default under its [configuration](https://symposium.dev/reference/configuration.html). Inclusion here does not imply inclusion there or endorsement by Symposium.
+
+Symposium's [crate-author guide](https://symposium.dev/crate-authors/supporting-your-crate.html) prefers skills shipped in crates and requires external skills to be submitted directly to its recommendations repository for vetting. Symposiast can produce evidence-backed guidance for a publishing proposal, but upstream review and compatibility checks remain separate.
+
+[Start a maintainer pilot](https://mcaveniathor.github.io/symposiast/maintainers.html) to choose one release, review useful tasks with a crate maintainer, and try the guidance with willing users. The guide also explains why post-release generation cannot add skills to an already-published crate archive.
+
 ## What an entry contains
 
 - One exact crates.io release, with an explicit dependency predicate.
@@ -31,3 +39,9 @@ Other Symposiast examples are not automatically registry entries. Additional cra
 Different crate releases remain separate entries. Corrections to an existing crate release update its registry entry and receive a new bundle revision, preserving old downloadable archives. Consumers should inspect the exact resolved dependency before using guidance.
 
 [Read the contribution and review process](contributing.html), [browse the source repository](https://github.com/mcaveniathor/symposiast-registry), or [report a correction](https://github.com/mcaveniathor/symposiast-registry/issues/new?template=correction.yml).
+
+## Help keep guidance useful
+
+Guidance remains freely available. Help maintain it by [trying a real task](subscribe.html#4-try-a-real-task), [sharing first or repeat use](https://github.com/mcaveniathor/symposiast-registry/issues/new?template=usage-feedback.yml), reviewing a recipe, or owning coverage for a crate.
+
+Usage reports are voluntary. Installation alone does not prove an agent consulted the guidance, and a successful task does not establish an improvement over working without it. Report what you observed, including unsuccessful attempts, without posting private code or conversations.

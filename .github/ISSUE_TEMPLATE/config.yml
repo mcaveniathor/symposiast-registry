@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Start a maintainer pilot
+    url: https://github.com/mcaveniathor/symposiast/issues/new?template=maintainer-pilot.yml
+    about: Propose one published release, up to three tasks, and a reviewer.
   - name: Submission guide
     url: https://github.com/mcaveniathor/symposiast-registry/blob/main/CONTRIBUTING.md
     about: How to generate, verify, and submit an entry.

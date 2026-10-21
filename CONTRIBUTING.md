@@ -2,6 +2,18 @@
 
 You can submit release-specific guidance, request coverage, or report a correction. You do not need to be a crate maintainer to contribute. This is community guidance; inclusion does not imply endorsement by the crate's authors.
 
+## Try guidance or start a pilot
+
+Follow the [consumer guide](https://mcaveniathor.github.io/symposiast-registry/subscribe.html) on a project that uses a supported release, then [report first or repeat use](https://github.com/mcaveniathor/symposiast-registry/issues/new?template=usage-feedback.yml). Tell us whether setup worked, whether the agent consulted the guidance, and whether the task succeeded. Unsuccessful attempts are useful too. Reports are voluntary and public; a redacted summary is enough, without private code or a full agent conversation.
+
+Crate maintainers and contributors can [propose a pilot](https://github.com/mcaveniathor/symposiast/issues/new?template=maintainer-pilot.yml) for one published release and up to three real tasks. Agree on a reviewer, willing consumer testers, and a correction owner. Follow the [maintainer guide](https://mcaveniathor.github.io/symposiast/maintainers.html) from generation through review, consumer trials, and a decision about the next release.
+
+## Relationship to Symposium
+
+This community registry is independent of [Symposium's official recommendations](https://github.com/symposium-dev/recommendations). Users subscribe to it explicitly; acceptance here does not confer acceptance there. Symposium's [crate-author guide](https://symposium.dev/crate-authors/supporting-your-crate.html) prefers skills shipped by crates and requires external skills to be submitted directly for vetting. Check its current contribution and AI policies before proposing an upstream submission.
+
+Symposiast analyzes published releases. Its post-release action cannot add skills to the immutable archive of that same crates.io release. Publish a reviewed registry entry or bundle attachment for that release. Crate-embedded guidance needs a separate packaging and validation process; do not relabel evidence from an older release. The maintainer guide explains the available publishing paths.
+
 ## Request a crate or release
 
 Search the [existing requests](https://github.com/mcaveniathor/symposiast-registry/issues) first, then [open a guidance request](https://github.com/mcaveniathor/symposiast-registry/issues/new?template=guidance-request.yml). Include:
@@ -16,7 +28,7 @@ Requests do not require a generated bundle, credentials, or code. Maintainers ca
 ## Submit verified guidance
 
 1. Fork this registry and create a branch. Search open issues and pull requests for overlapping work; link a related request in your PR if one exists.
-2. Install Symposiast from a revision that includes `export-registry`, and install/configure [Symposium](https://symposium.dev/). The export command is currently on the generator's `feat/portable-registry-export` branch; this known revision includes it:
+2. Install Symposiast from a revision that includes `export-registry`, and install/configure [Symposium](https://symposium.dev/). This known generator revision includes the export command:
 
    ```sh
    cargo install --git https://github.com/mcaveniathor/symposiast \
@@ -24,7 +36,7 @@ Requests do not require a generated bundle, credentials, or code. Maintainers ca
    symposiast export-registry --help
    ```
 
-   [Inspect that generator revision](https://github.com/mcaveniathor/symposiast/tree/b34ec10e8603bc64c2bc8abce6bbe466e404f119). Use the repository's pinned toolchain if your installed Rust is too old. Once the export command is available in your chosen newer revision, you can use that revision instead and record it in your PR.
+   [Inspect that generator revision](https://github.com/mcaveniathor/symposiast/tree/b34ec10e8603bc64c2bc8abce6bbe466e404f119). Use the repository's pinned toolchain if your installed Rust is too old. You can use a newer revision with the export command instead; record the exact revision in your PR.
 
    Generate a bundle for an **exact published crates.io release**, using your chosen authenticated agent. For example, replace the package, version, and paths below:
 
@@ -60,11 +72,13 @@ Requests do not require a generated bundle, credentials, or code. Maintainers ca
    ```
 
    `check.py` checks recorded evidence and lockfile hashes; plugin validation checks the manifest structure. These checks do not repeat recipe compilation or establish recommendation quality. `--no-check-crates` skips live crate lookups; maintainers should confirm the published source identity when reviewing.
-7. Open a pull request using the checklist. Describe scope and limitations, link the exact generator revision, include the verification toolchain and platform, and provide a downloadable full source bundle or reproducible generation details. Keep secrets, local agent state, and build caches out of commits. Do not commit the full source bundle into the portable entry.
+7. Open a pull request using the checklist. Describe scope and limitations, link the exact generator revision, include the verification toolchain and platform, and provide a downloadable full source bundle or reproducible generation details. For a CI candidate, identify the run, artifact ID, and archive hash that were reviewed. Keep secrets, local agent state, and build caches out of commits. Do not commit the full source bundle into the portable entry.
 
 ## Review and publication
 
 Maintainers review source identity, citations, license notices, feature requirements, recipe usefulness, verification records, and the generated-file diff. An absent agent review is visible and is not approval. Unresolved recorded review issues and stale or failed compilation block export. CI must pass before inclusion; contributors may be asked to revise or narrow the scope. Human review is still needed after automated checks pass.
+
+Record human review against the exact bundle revision in the PR, separately from agent review. Link consumer trials when available; neither a download nor installation establishes that guidance was consulted. Keep Symposiast attribution in provenance, catalog pages, and release notes. Keep installed skills focused on task guidance. The release workflow generates a candidate for review; regenerating it creates a new candidate that needs another review.
 
 After acceptance, maintainers merge the entry and publish any full bundle under a new revision tag such as `your-crate-1.2.3-r1`, with a SHA256 checksum file. The archive should retain `bundle.json`, frozen sources, runnable verification projects, logs, and lockfiles. Set `bundle_release` only after the release exists. Existing release downloads are immutable: corrections use `r2`, `r3`, and so on. The registry entry follows the latest accepted correction for that exact crate release, while old archives remain available.
 

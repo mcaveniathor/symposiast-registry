@@ -1,0 +1,54 @@
+name: Share guidance use
+description: Tell us about first use, an unsuccessful attempt, or returning to a bundle.
+title: "[Usage] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reports are voluntary and public. A short redacted account is enough; do not share private code, credentials, or full agent conversations. Installed guidance is not necessarily consulted guidance. It is fine to say you do not know. Use the correction form for a specific incorrect finding or recipe.
+  - type: input
+    id: release
+    attributes:
+      label: Guidance entry and resolved dependency
+      description: Link the entry or name the crate and exact version. Mention a different source (such as a path or Git dependency), features, and target if relevant.
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Which stage did you reach?
+      options:
+        - Tried setup but could not use the guidance
+        - First task with this guidance
+        - Returned for another task or session
+        - Refreshed guidance for another crate release
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: Task and outcome
+      description: What were you trying to do? What worked, failed, or required extra effort? Include project check results if available. No private source is needed.
+    validations:
+      required: true
+  - type: dropdown
+    id: consulted
+    attributes:
+      label: Did the agent consult the guidance?
+      options:
+        - Yes, I observed it reading or citing the skill or a recipe
+        - It installed, but I did not observe the agent consulting it
+        - The guidance did not install or activate
+        - I do not know
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Setup and evidence
+      description: Agent and Symposium versions, installation route, recipe or finding IDs, and redacted sync or status output if useful. Indicate what you actually observed.
+  - type: textarea
+    id: next
+    attributes:
+      label: What would make you use it again?
+      description: Missing tasks, confusing setup, helpful details, or what brought you back. Link a pilot or previous report if relevant.
