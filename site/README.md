@@ -2,6 +2,8 @@
 
 The public catalog is built with Stucco 0.2.1 and deployed to GitHub Pages at `https://mcaveniathor.github.io/symposiast-registry/`. It is a static site: searching happens in the browser and requests/submissions go through GitHub. Browsing and installation instructions work without JavaScript; search and copy controls are progressive enhancements.
 
+The header's dark mode switch uses Stucco's `data-theme` attribute and `stucco-theme` storage key. It follows the system preference until a visitor chooses a mode, restores that choice before first paint, and shares it between both sites when hosted on the same origin. With JavaScript disabled, the switch stays hidden and the page follows the system preference. Custom site colors use `light-dark()` alongside Stucco's theme.
+
 From the registry root:
 
 ```sh
