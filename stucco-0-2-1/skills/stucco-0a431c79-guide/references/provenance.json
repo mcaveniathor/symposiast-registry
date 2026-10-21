@@ -1,0 +1,330 @@
+{
+  "bundle_sha256": "a5eb5f3dec1ba0acf002c25119f7b3b335f8e3f3e2d6aff731e36b1d2b0bc1b2",
+  "generator": {
+    "name": "symposiast",
+    "version": "0.1.0"
+  },
+  "recipes": [
+    {
+      "input_sha256": "b020c46de077c9c589b8fcaa77ba3406d75bc6855d4e22de3f19ab3634212906",
+      "lockfile_path": "lockfiles/static-page.lock",
+      "lockfile_sha256": "aa4cfcba6f4db8b1875eec9dbc964bb45a08aa0ceba1fbb3f3cdacf8d9e2aa1b",
+      "recipe_id": "static-page",
+      "rustc_version": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+      "status": "compiled"
+    },
+    {
+      "input_sha256": "396e34e171dc6e3bb20d694028be62581d6f87a3b86000ef3d47e90f1f40790f",
+      "lockfile_path": "lockfiles/axum-page.lock",
+      "lockfile_sha256": "3537358d3a8c87c55a6b03449f265fe36d7fb82e248f1aaa31af7b83f6324ec8",
+      "recipe_id": "axum-page",
+      "rustc_version": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+      "status": "compiled"
+    }
+  ],
+  "release": {
+    "checksum": "0a4b52163a2c588b58afce69ef1d216580909b1c1d48d372b8a2b5d1f4003553",
+    "collected_at": "1792450115",
+    "features": {
+      "actions": [
+        "stucco-ui/actions"
+      ],
+      "app": [
+        "navigation",
+        "layout",
+        "stucco-ui/app"
+      ],
+      "askama": [],
+      "axum": [
+        "dep:stucco-tower"
+      ],
+      "collections": [
+        "data",
+        "forms",
+        "navigation",
+        "feedback",
+        "stucco-ui/collections"
+      ],
+      "data": [
+        "stucco-ui/data"
+      ],
+      "default": [
+        "layout",
+        "typography",
+        "actions",
+        "forms",
+        "feedback",
+        "navigation",
+        "overlay",
+        "data",
+        "app"
+      ],
+      "derive": [
+        "collections",
+        "dep:stucco-macros"
+      ],
+      "diagram": [
+        "icons"
+      ],
+      "feedback": [
+        "stucco-ui/feedback"
+      ],
+      "forms": [
+        "actions",
+        "stucco-ui/forms"
+      ],
+      "icons": [
+        "stucco-ui/icons"
+      ],
+      "layout": [
+        "stucco-ui/layout"
+      ],
+      "markdown": [
+        "typography"
+      ],
+      "marketing": [
+        "layout",
+        "typography",
+        "actions"
+      ],
+      "maud": [],
+      "navigation": [
+        "stucco-ui/navigation"
+      ],
+      "overlay": [
+        "actions",
+        "typography",
+        "stucco-ui/overlay"
+      ],
+      "typography": [
+        "stucco-ui/typography"
+      ]
+    },
+    "name": "stucco",
+    "repository": "https://github.com/mcaveniathor/stucco",
+    "repository_commit": "303ee2433ce3c05d0af9c4b79a4e09958d374f92",
+    "rust_version": "1.85",
+    "version": "0.2.1"
+  },
+  "review": null,
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "e0001",
+      "kind": "manifest",
+      "path": "evidence/e0001.txt",
+      "sha256": "50cf61900ec1386e00fe4a49b75fbe0d5539ffd743efb3bb310cdf96a959c382",
+      "url": "https://docs.rs/crate/stucco/0.2.1/source/Cargo.toml"
+    },
+    {
+      "id": "e0002",
+      "kind": "release_metadata",
+      "path": "evidence/e0002.txt",
+      "sha256": "2624cfa162eda3729a455a6ad2e751a7787b778ec64ac72e080704f7c22c68cd",
+      "url": "https://docs.rs/crate/stucco/0.2.1/source/.cargo_vcs_info.json"
+    },
+    {
+      "id": "e0003",
+      "kind": "readme",
+      "path": "evidence/e0003.txt",
+      "sha256": "5311c323116f1b7285196b5255524779d6ad93e3de21f750dd919430241a3b37",
+      "url": "https://docs.rs/crate/stucco/0.2.1/source/README.md"
+    },
+    {
+      "id": "e0004",
+      "kind": "readme",
+      "path": "evidence/e0004.txt",
+      "sha256": "be1d6f63d816e4200d11797134a01dbc1316e85be7fb4d679414dfc074222a80",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/README.md"
+    },
+    {
+      "id": "e0005",
+      "kind": "changelog",
+      "path": "evidence/e0005.txt",
+      "sha256": "b72715c4dfc37bcce6da0fc8a09873af03f9ed1ead391226337c200f210093b1",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/CHANGELOG.md"
+    },
+    {
+      "id": "e0006",
+      "kind": "api",
+      "path": "evidence/e0006.txt",
+      "sha256": "cc299ecb41ce8275b25a8c50783f24868dd337c06ea723601faa26d5f04ea041",
+      "url": "https://docs.rs/crate/stucco/0.2.1/source/src/lib.rs"
+    },
+    {
+      "id": "e0007",
+      "kind": "example",
+      "path": "evidence/e0007.txt",
+      "sha256": "4d1409910e378a09b4f5e3603425381ef87a3e31e18be1af25508cbc9f38a360",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/examples/hello/src/main.rs"
+    },
+    {
+      "id": "e0008",
+      "kind": "documentation",
+      "path": "evidence/e0008.txt",
+      "sha256": "60eada19e74049d1f6b97cbaa0f846b42c4a53f11b1296d273a3bf5bed718e6c",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/DESIGN.md"
+    },
+    {
+      "id": "e0009",
+      "kind": "test",
+      "path": "evidence/e0009.txt",
+      "sha256": "23f51d41ba7d8c9dd0bacb54cf56014a5ba6249ebbb9c79940e1b0d44b7df5da",
+      "url": "https://docs.rs/crate/stucco/0.2.1/source/tests/derive.rs"
+    },
+    {
+      "id": "e0010",
+      "kind": "readme",
+      "path": "evidence/e0010.txt",
+      "sha256": "b540ac938ce7e134431d4945fe50bca50e9df851f93bc77d87bad19056378f18",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/examples/orders/README.md"
+    },
+    {
+      "id": "e0011",
+      "kind": "manifest",
+      "path": "evidence/e0011.txt",
+      "sha256": "cebedbc8a1500efe6aa4e6f9803950d7896be598e9b451766f3c39b4ece73d48",
+      "url": "https://docs.rs/crate/stucco/0.2.1/source/Cargo.toml.orig"
+    },
+    {
+      "id": "e0012",
+      "kind": "example",
+      "path": "evidence/e0012.txt",
+      "sha256": "c3f29750d82b0736308a8796cf29c378e34b3498a68dea8f70d452319d4cd8db",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/examples/orders/src/lib.rs"
+    },
+    {
+      "id": "e0013",
+      "kind": "documentation",
+      "path": "evidence/e0013.txt",
+      "sha256": "19753e488323d714c20a9b39c70cad6e4485ac0562186f032ee4ccf582bac2c8",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/RELEASING.md"
+    },
+    {
+      "id": "e0014",
+      "kind": "manifest",
+      "path": "evidence/e0014.txt",
+      "sha256": "54d3f6e681a2c6e9bc5ed8c735d096d627216f4203e9c63dea480de6fd60ad7e",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/Cargo.toml"
+    },
+    {
+      "id": "e0015",
+      "kind": "example",
+      "path": "evidence/e0015.txt",
+      "sha256": "5e0c65224116ae6a027a21ed51603bec66a6559d0e37949a5e8b9595cfbacb9a",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/examples/orders/src/main.rs"
+    },
+    {
+      "id": "e0016",
+      "kind": "documentation",
+      "path": "evidence/e0016.txt",
+      "sha256": "870a602f30eb656b4c4e1ff1144eb8edd1f8bf77acf35c91c287bf3c9f1a30ee",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/docs/roadmap-0.2.md"
+    },
+    {
+      "id": "e0017",
+      "kind": "example",
+      "path": "evidence/e0017.txt",
+      "sha256": "6341a47351e2cb74bea55d6261d2dda2623df978360151c0e006097fcc0eb33d",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/examples/orders/src/model.rs"
+    },
+    {
+      "id": "e0018",
+      "kind": "documentation",
+      "path": "evidence/e0018.txt",
+      "sha256": "bc4747a5ee1f0715f742035fc20854f3201d84bcf5ec394413b38d4cc681575a",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/docs/guide/cli.md"
+    },
+    {
+      "id": "e0019",
+      "kind": "example",
+      "path": "evidence/e0019.txt",
+      "sha256": "a0489ba503ed15c420056ce4b2a2f39b185c54047ad7d3904462d58e26c87cae",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/examples/orders/src/source.rs"
+    },
+    {
+      "id": "e0020",
+      "kind": "documentation",
+      "path": "evidence/e0020.txt",
+      "sha256": "70299b3c5a7c7c63364ba2a5b82e360172e583017c3d65f0579dd3c0e74be0f6",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/docs/guide/collections.md"
+    },
+    {
+      "id": "e0021",
+      "kind": "example",
+      "path": "evidence/e0021.txt",
+      "sha256": "480c8fd0da418677737d3499f61460710063206ca5976371730fe03869ace88c",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/examples/orders/tests/http.rs"
+    },
+    {
+      "id": "e0022",
+      "kind": "documentation",
+      "path": "evidence/e0022.txt",
+      "sha256": "eeb04d253e8bd81af307aad4ca9e625e761099a4e1dd0e6a1023c12064b13a4f",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/docs/guide/components.md"
+    },
+    {
+      "id": "e0023",
+      "kind": "documentation",
+      "path": "evidence/e0023.txt",
+      "sha256": "3b28d3f70b75bd13e4a43e9693b903fd30cd5272bad749a9f15f9ff3e44cecac",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/docs/guide/enhancement.md"
+    },
+    {
+      "id": "e0024",
+      "kind": "documentation",
+      "path": "evidence/e0024.txt",
+      "sha256": "57e72079c69ae9501a3462516dc567bf40fdc7b12dd7a2c4bb8b3e887c073d21",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/docs/guide/forms.md"
+    },
+    {
+      "id": "e0025",
+      "kind": "documentation",
+      "path": "evidence/e0025.txt",
+      "sha256": "4fed45fb3a66ad8ec7476880b44f286bef6dda64f6873822a9285ae6562af33a",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/docs/guide/getting-started.md"
+    },
+    {
+      "id": "e0026",
+      "kind": "documentation",
+      "path": "evidence/e0026.txt",
+      "sha256": "bdc06352719e3652d1908e9995d18cec2a76abc188af321cfc09da237fcfa0aa",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/docs/guide/recipes.md"
+    },
+    {
+      "id": "e0027",
+      "kind": "documentation",
+      "path": "evidence/e0027.txt",
+      "sha256": "41b91eb2465ee8afce8ab36c72bd8eb33f46c587c733d4b27d1ae05d5556db9d",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/docs/guide/theming.md"
+    },
+    {
+      "id": "e0028",
+      "kind": "api",
+      "path": "evidence/e0028.txt",
+      "sha256": "6722f304ac78fd0401c1dfbc6051e01b793b519ec948893134d1045f5494d733",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/crates/stucco-core/src/bundle.rs"
+    },
+    {
+      "id": "e0029",
+      "kind": "license",
+      "path": "evidence/e0029.txt",
+      "sha256": "a440d14b3a7d8741eb49a457914a1854e9b115fe122c5502e35de64bfb7e1cac",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/LICENSE-MIT"
+    },
+    {
+      "id": "e0030",
+      "kind": "license",
+      "path": "evidence/e0030.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "url": "https://github.com/mcaveniathor/stucco/blob/303ee2433ce3c05d0af9c4b79a4e09958d374f92/LICENSE-APACHE"
+    }
+  ],
+  "warnings": [
+    "Collection is bounded to 48 UTF-8 evidence files, 48 KiB per file, and 320 KiB total; examples and API documentation are sampled, not exhaustive. Rendered documentation and external documentation sites are not crawled.",
+    "Pinned repository archive: 1 link or special-file entries were rejected without following or extracting them.",
+    "2 distinct eligible source files were omitted by the evidence budget; 27 files selected.",
+    "The published facade and pinned repository selection were supplemented with stucco-core/src/bundle.rs from the same release commit to document asset prefixes and export APIs. This is curated evidence, not exhaustive coverage of companion crates.",
+    "Upstream MIT and Apache-2.0 license texts from the release commit are included as frozen sources so they accompany installed evidence. Compiler logs normalize the temporary build-directory prefix; recorded check results and lockfile hashes are unchanged."
+  ]
+}

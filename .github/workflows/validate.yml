@@ -1,0 +1,20 @@
+name: Validate registry
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: rustup show active-toolchain
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo install symposium --version 0.5.1 --locked
+      - name: Validate plugins and recorded files
+        env:
+          SYMPOSIUM_HOME: ${{ runner.temp }}/registry-validation
+        run: |
+          mkdir -p "$SYMPOSIUM_HOME/logs"
+          printf 'auto-update = "off"\n[defaults]\nsymposium-recommendations = false\nuser-plugins = false\n' > "$SYMPOSIUM_HOME/config.toml"
+          cargo agents plugin validate . --no-check-crates
+          python3 check.py
