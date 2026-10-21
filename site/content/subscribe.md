@@ -54,7 +54,7 @@ Installation, consultation, and task success are separate observations. Check th
 
 ## Need the full bundle?
 
-A full bundle contains runnable recipe projects, logs, frozen sources, and lockfiles. Once its download is published, verify the archive against its accompanying SHA256 checksum before extracting it. To enable MCP retrieval and the version hook, install Symposiast, extract the bundle, and run `symposiast install` with the extracted bundle directory, then sync in the consumer workspace. See [full-bundle installation](https://mcaveniathor.github.io/symposiast/getting-started.html).
+[Download the Stucco 0.3.0 full bundle and SHA256 checksum](https://github.com/mcaveniathor/symposiast-registry/releases/tag/stucco-0.3.0-r1). The bundle contains runnable recipe projects, logs, frozen sources, and lockfiles. Verify the archive against its accompanying SHA256 checksum before extracting it. To enable MCP retrieval and the version hook, install Symposiast, extract the bundle, and run `symposiast install` with the extracted bundle directory, then sync in the consumer workspace. See [full-bundle installation](https://mcaveniathor.github.io/symposiast/getting-started.html).
 
 Use one distribution of a release's skill in a workspace: the portable entry and full runtime plugin intentionally share its identity.
 
