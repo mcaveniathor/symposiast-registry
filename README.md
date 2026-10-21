@@ -14,7 +14,7 @@ This is an independent community registry, separate from [Symposium's official r
 | --- | --- | --- | --- | --- |
 | Stucco | 0.3.0 | Static pages, Axum fragments, status components, derived tables, validation and themes | Six recipes compiled; agent review approved | [Read the skill](stucco-0-3-0/skills/stucco-1a8c8f73-guide/SKILL.md) |
 
-The registry entry includes verified recipes, dependency lockfiles, and frozen sources. A full bundle download will be linked after its publication.
+The registry entry includes verified recipes, dependency lockfiles, and frozen sources. [Download the full bundle and SHA256 checksum](https://github.com/mcaveniathor/symposiast-registry/releases/tag/stucco-0.3.0-r1).
 
 ## Subscribe
 
