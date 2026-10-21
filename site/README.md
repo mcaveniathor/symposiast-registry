@@ -25,6 +25,8 @@ Open `http://localhost:8000`. The generator validates `--base` and supports root
 
 The site derives crate name, exact release, recipes, compiler versions, and review status from each skill's `references/provenance.json`. `CONTRIBUTING.md` is rendered directly as the contribution page. Other guides live in `site/content/`; the shell and catalog renderer are in `site/src/`; CSS and browser behavior are in `site/assets/`. The Markdown renderer, link checker, and base visual styles originate in the Symposiast documentation site.
 
+The generator site's [maintainer guide](https://mcaveniathor.github.io/symposiast/maintainers.html) owns the pilot and publishing workflow. Keep this site's installation, feedback, and contribution links aligned with it. Consumer reports use `usage-feedback.yml` in this repository; maintainer pilots use `maintainer-pilot.yml` in the generator repository. Keep exported skills focused on task guidance.
+
 For Rust changes, run `cargo fmt --manifest-path site/Cargo.toml --check` and `cargo clippy --locked --manifest-path site/Cargo.toml --all-targets -- -D warnings`, plus the site build and link checker. Check both desktop and narrow layouts, search by crate/version/task, the empty state, and copy/install links. External links are not fetched by the local checker.
 
 ## Deployment

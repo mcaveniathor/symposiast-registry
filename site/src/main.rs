@@ -197,7 +197,9 @@ fn catalog(site: &Site, records: &[Record]) -> String {
                     .child(el::ol().child(el::li().text("An exact published crate release"))
                         .child(el::li().text("Recipes with compilation records"))
                         .child(el::li().text("Frozen sources and provenance")))
-                    .child(el::p().text("Portable skills for Symposium. No analysis-agent login needed to use them."))))
+                    .child(el::p().text("Portable skills for Symposium. No Symposiast CLI or analysis-agent login needed."))
+                    .child(el::p().text("An independent community source. ")
+                        .child(el::a().href(site.url("about.html#part-of-the-symposium-ecosystem")).text("How it fits with Symposium →")))))
             .child(el::section().class("catalog-section").aria("label", "Release catalog")
                 .child(el::div().class("section-heading").child(el::h2().text("Browse the registry"))
                     .child(el::p().class("eyebrow").text(format!("{} RELEASE{}", records.len(), if records.len() == 1 { "" } else { "S" }))))
@@ -213,9 +215,12 @@ fn catalog(site: &Site, records: &[Record]) -> String {
                 .child(el::p().class("catalog-footnote").text("Compilation checks the recorded recipe inputs. It does not establish runtime behavior or crate-maintainer endorsement.")))
             .child(el::section().class("contribute-strip")
                 .child(el::div().child(el::p().class("eyebrow").text("GROW THE COLLECTION"))
-                    .child(el::h2().text("Bring the next crate."))
-                    .child(el::p().text("Share a verified bundle, request a release, or help correct a recipe. Every contribution starts in the open.")))
-                .child(el::a().class("primary-link").href(site.url("contributing.html")).text("How to contribute →"))))
+                    .child(el::h2().text("Make guidance useful in real projects."))
+                    .child(el::p().text("Maintain a crate? Start with one release and three user tasks. Tried a recipe? Tell us what worked and whether you used it again.")))
+                .child(el::div().class("hero-links")
+                    .child(el::a().class("primary-link").href("https://mcaveniathor.github.io/symposiast/maintainers.html").text("Start a maintainer pilot →"))
+                    .child(el::a().class("text-link").href(format!("{REPO}/issues/new?template=usage-feedback.yml")).text("Share your experience →"))
+                    .child(el::a().class("text-link").href(site.url("contributing.html")).text("Submit guidance →")))))
 }
 fn detail(site: &Site, record: &Record) -> String {
     let p = &record.provenance;
@@ -277,8 +282,14 @@ fn detail(site: &Site, record: &Record) -> String {
             .child(el::p().child(el::a().href(format!("https://crates.io/crates/{}/{}", p.release.name, p.release.version)).text("Published crate ↗")))
             .child(el::p().child(el::a().href(p.release.repository.clone().unwrap_or_else(|| format!("https://crates.io/crates/{}", p.release.name))).text("Upstream project ↗")))
             .child(el::h2().text("Found something to improve?"))
+            .child(el::p().child(el::a().href(site.url("subscribe.html#4-try-a-real-task")).text("Try this guidance on a real task"))
+                .text(", then ").child(el::a().href(format!("{REPO}/issues/new?template=usage-feedback.yml")).text("share first or repeat use"))
+                .text(". Tell us whether it installed, whether your agent consulted it, and how the task went."))
             .child(el::p().child(el::a().href(format!("{REPO}/issues/new?template=correction.yml")).text("Report a correction"))
-                .text(" with the recipe or finding ID and a minimal reproduction.")))
+                .text(" with the recipe or finding ID and a minimal reproduction."))
+            .child(el::p().class("review-status").text("Guidance generated and checked with ")
+                .child(el::a().href("https://mcaveniathor.github.io/symposiast/").text("Symposiast"))
+                .text(". See the provenance for this entry’s recorded analysis and review status.")))
 }
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut args = std::env::args().skip(1);
