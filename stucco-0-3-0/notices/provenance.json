@@ -1,0 +1,12 @@
+[
+  {
+    "path": "LICENSE-MIT",
+    "sha256": "a440d14b3a7d8741eb49a457914a1854e9b115fe122c5502e35de64bfb7e1cac",
+    "url": "https://github.com/mcaveniathor/stucco/blob/07335e73dfb22aba2ce89487bcee634a24c2080e/LICENSE-MIT"
+  },
+  {
+    "path": "LICENSE-APACHE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "url": "https://github.com/mcaveniathor/stucco/blob/07335e73dfb22aba2ce89487bcee634a24c2080e/LICENSE-APACHE"
+  }
+]
