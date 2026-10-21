@@ -30,7 +30,7 @@ The registry checker validates stored evidence and lockfile hashes. Plugin valid
 
 ## Current coverage
 
-The initial entry covers Stucco 0.2.1: semantic static pages with hashed assets and Axum routes for HTML and stylesheets. Its analysis was imported, and both recipes have compilation records. Upstream MIT and Apache-2.0 license texts accompany the frozen evidence.
+The current entry covers Stucco 0.3.0: static pages and assets, Axum fragments, native status components, derived tables, form validation, and server-selected themes. It was generated with Codex, refined through a structured import, reviewed with Codex, and has six compiled recipes. The earlier 0.2.1 active entry has been removed. Upstream MIT and Apache-2.0 license texts accompany the frozen evidence.
 
 Other Symposiast examples are not automatically registry entries. Additional crates and releases need a submitted export and review. [Request the coverage you need](https://github.com/mcaveniathor/symposiast-registry/issues/new?template=guidance-request.yml), or [contribute an entry](contributing.html).
 

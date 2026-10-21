@@ -1,0 +1,7 @@
+depends-on = ["stucco==0.3.0"]
+name = "symposiast-stucco-1a8c8f73"
+
+[[skills]]
+
+[skills.source]
+path = "skills"

@@ -205,7 +205,7 @@ fn catalog(site: &Site, records: &[Record]) -> String {
                     .child(el::p().class("eyebrow").text(format!("{} RELEASE{}", records.len(), if records.len() == 1 { "" } else { "S" }))))
                 .child(el::div().id("search-controls").attr("hidden", "")
                     .child(el::label().attr("for", "search").text("Search crates, versions, or tasks"))
-                    .child(el::input().id("search").attr("type", "search").attr("placeholder", "Try stucco, 0.2.1, or static sites").attr("autocomplete", "off"))
+                    .child(el::input().id("search").attr("type", "search").attr("placeholder", "Try stucco, 0.3.0, or static sites").attr("autocomplete", "off"))
                     .child(el::p().id("result-count").attr("role", "status").attr("aria-live", "polite")))
                 .child(list)
                 .child(el::div().id("empty-state").attr("hidden", "")

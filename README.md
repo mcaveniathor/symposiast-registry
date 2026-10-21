@@ -12,9 +12,9 @@ This is an independent community registry, separate from [Symposium's official r
 
 | Crate | Release | Recipes | Verification | Guidance |
 | --- | --- | --- | --- | --- |
-| Stucco | 0.2.1 | Static page and assets; Axum HTML and stylesheet routes | Both recipes compiled; imported analysis | [Read the skill](stucco-0-2-1/skills/stucco-0a431c79-guide/SKILL.md) |
+| Stucco | 0.3.0 | Static pages, Axum fragments, status components, derived tables, validation and themes | Six recipes compiled; agent review approved | [Read the skill](stucco-0-3-0/skills/stucco-1a8c8f73-guide/SKILL.md) |
 
-[Download the full Stucco bundle](https://github.com/mcaveniathor/symposiast-registry/releases/tag/stucco-0.2.1-r1) for runnable Cargo projects, compiler logs, lockfiles, frozen sources, and local MCP installation.
+The registry entry includes verified recipes, dependency lockfiles, and frozen sources. A full bundle download will be linked after its publication.
 
 ## Subscribe
 
@@ -33,17 +33,17 @@ cargo agents sync
 cargo agents status
 ```
 
-The Stucco skill matches `stucco==0.2.1`. Each release's skill has a distinct identity. Unsupported releases do not receive another release's guidance. This registry supplies skills and their references; it does not register hooks or MCP servers or require the Symposiast executable.
+The Stucco skill matches `stucco==0.3.0`. Each release's skill has a distinct identity. Unsupported releases do not receive another release's guidance. This registry supplies skills and their references; it does not register hooks or MCP servers or require the Symposiast executable.
 
-Symposium 0.5.1 has been checked with a relocated registry and isolated Claude Code and Codex configurations, including repeated sync and removal after a version mismatch. Confirm the resolved version and source in your own workspace before applying a recipe. Avoid installing both this entry and the full runtime plugin for the same release in one workspace, since they share the skill identity.
+The portable entry is validated with Symposium 0.5.1. Confirm the resolved version and source in your own workspace before applying a recipe. Avoid installing both this entry and the full runtime plugin for the same release in one workspace, since they share the skill identity.
 
 After syncing, reload your agent session if needed and ask it to consult the installed release skill for a concrete task. Check that it actually used a finding or recipe, adapt the example to your features, and run your project's checks. If no entry matches, request your release rather than changing dependencies just to activate guidance. The [installation guide](https://mcaveniathor.github.io/symposiast-registry/subscribe.html) includes a Stucco task and troubleshooting steps.
 
 ## Evidence and verification
 
-The skill includes all frozen evidence and a [provenance record](stucco-0-2-1/skills/stucco-0a431c79-guide/references/provenance.json), including source URLs and hashes, original release metadata, compilation fingerprints, and dependency lockfiles. Paths in the record are relative to its directory. Compilation establishes that the recorded recipe inputs passed Cargo checks; it does not establish runtime behavior. The original bundle schema does not record the verification platform.
+The skill includes all frozen evidence and a [provenance record](stucco-0-3-0/skills/stucco-1a8c8f73-guide/references/provenance.json), including source URLs and hashes, original release metadata, compilation fingerprints, and dependency lockfiles. Paths in the record are relative to its directory. Compilation establishes that the recorded recipe inputs passed Cargo checks; it does not establish runtime behavior. The original bundle schema does not record the verification platform.
 
-The Stucco analysis was imported and has no recorded agent review. Its executable assertions were checked separately in the [source project](https://github.com/mcaveniathor/symposiast/blob/main/plugins/stucco/README.md). This is third-party guidance, not a Stucco-maintainer endorsement.
+The Stucco analysis was generated with Codex, refined through a structured analysis import, reviewed with Codex, and compiled with Rust 1.99.1 on Linux x86_64. All six recipes have current successful compilation records. No consumer runtime trials or human review are claimed. The active 0.2.1 entry was removed when 0.3.0 was published; historical download archives remain available.
 
 ## Submit guidance, request coverage, or report a correction
 
@@ -73,4 +73,4 @@ The [site development guide](site/README.md) describes local preview, catalog fi
 
 ## Source notices
 
-Stucco source excerpts retain their upstream MIT or Apache-2.0 licenses. Both license texts are included in the skill's evidence: [MIT](stucco-0-2-1/skills/stucco-0a431c79-guide/references/evidence/e0029.txt) and [Apache-2.0](stucco-0-2-1/skills/stucco-0a431c79-guide/references/evidence/e0030.txt). The source URLs and hashes identify the retained excerpts. Preserve these notices when redistributing the guidance.
+Stucco source excerpts retain their upstream MIT or Apache-2.0 licenses. Both license texts are retained alongside the exported guidance: [MIT](stucco-0-3-0/notices/LICENSE-MIT) and [Apache-2.0](stucco-0-3-0/notices/LICENSE-APACHE), with [source hashes](stucco-0-3-0/notices/provenance.json). The source URLs and hashes identify the retained excerpts. Preserve these notices when redistributing the guidance.
