@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Submission guide
+    url: https://github.com/mcaveniathor/symposiast-registry/blob/main/CONTRIBUTING.md
+    about: How to generate, verify, and submit an entry.
+  - name: Symposiast generator issues
+    url: https://github.com/mcaveniathor/symposiast/issues
+    about: Report bugs in collection, analysis, verification, or export.

@@ -18,3 +18,4 @@ jobs:
           printf 'auto-update = "off"\n[defaults]\nsymposium-recommendations = false\nuser-plugins = false\n' > "$SYMPOSIUM_HOME/config.toml"
           cargo agents plugin validate . --no-check-crates
           python3 check.py
+          python3 -m unittest test_check.py

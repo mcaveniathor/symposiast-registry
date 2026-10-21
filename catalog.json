@@ -1,0 +1,8 @@
+[
+  {
+    "entry": "stucco-0-2-1",
+    "summary": "Build semantic static pages with hashed assets, or serve HTML and stylesheets through Axum.",
+    "tags": ["web", "html", "static sites", "axum"],
+    "bundle_release": "stucco-0.2.1-r1"
+  }
+]

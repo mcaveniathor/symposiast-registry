@@ -2,6 +2,8 @@
 
 Release-specific Rust crate guidance for [Symposium](https://symposium.dev/), generated and validated with [Symposiast](https://github.com/mcaveniathor/symposiast).
 
+Browse the [registry website](https://mcaveniathor.github.io/symposiast-registry/), [submit an entry](CONTRIBUTING.md#submit-verified-guidance), or [request a crate/release](https://github.com/mcaveniathor/symposiast-registry/issues/new?template=guidance-request.yml).
+
 ## Catalog
 
 | Crate | Release | Recipes | Verification | Guidance |
@@ -37,16 +39,26 @@ The skill includes all frozen evidence and a [provenance record](stucco-0-2-1/sk
 
 The Stucco analysis was imported and has no recorded agent review. Its executable assertions were checked separately in the [source project](https://github.com/mcaveniathor/symposiast/blob/main/plugins/stucco/README.md). This is third-party guidance, not a Stucco-maintainer endorsement.
 
-## Updating an entry
+## Submit guidance, request coverage, or report a correction
 
-Generate or repair a bundle, verify its recipes, and export to a fresh directory:
+Read [CONTRIBUTING.md](CONTRIBUTING.md) for the complete generation, verification, export, pull-request, and maintainer review process.
+
+- **Have guidance to share?** Fork the registry, export a verified bundle into a new entry directory, update `catalog.json`, run the checks, and submit a pull request.
+- **Need a crate or release?** Search [existing issues](https://github.com/mcaveniathor/symposiast-registry/issues), then [request guidance](https://github.com/mcaveniathor/symposiast-registry/issues/new?template=guidance-request.yml). Include the package, version, tasks, and feature/platform requirements. No bundle is needed to make a request.
+- **Found incorrect guidance?** [Report a correction](https://github.com/mcaveniathor/symposiast-registry/issues/new?template=correction.yml) with the entry, recipe/finding, and reproduction.
+
+Different crate releases stay in separate directories. Corrections get a new registry commit and bundle revision; published archives are not replaced. Requests do not guarantee coverage or a delivery date.
+
+## Registry and site development
 
 ```sh
-symposiast export-registry path/to/bundle --output path/to/new-entry
-cargo agents plugin validate path/to/containing-registry
+python3 check.py
+cargo agents plugin validate . --no-check-crates
+cargo run --locked --manifest-path site/Cargo.toml -- dist --base /symposiast-registry/
+python3 site/check_links.py dist --base /symposiast-registry/
 ```
 
-The export command is being introduced in Symposiast; use a revision containing that command. Review the diff before replacing a published entry through a pull request. Keep different crate releases in separate directories. Corrections to the same crate release get a new registry commit and a new bundle revision; existing release archives must not be replaced.
+The [site development guide](site/README.md) describes local preview, catalog fields, and GitHub Pages deployment. The site reads the catalog and exported provenance directly; keep contribution instructions in `CONTRIBUTING.md`, which also supplies the website's contribution page.
 
 ## Source notices
 
