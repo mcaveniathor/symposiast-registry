@@ -16,7 +16,17 @@ Requests do not require a generated bundle, credentials, or code. Maintainers ca
 ## Submit verified guidance
 
 1. Fork this registry and create a branch. Search open issues and pull requests for overlapping work; link a related request in your PR if one exists.
-2. Install [Symposiast](https://github.com/mcaveniathor/symposiast#install) from a revision that includes `export-registry`, and install/configure [Symposium](https://symposium.dev/). Generate a bundle for an **exact published crates.io release**, using your chosen authenticated agent. For example, replace the package, version, and paths below:
+2. Install Symposiast from a revision that includes `export-registry`, and install/configure [Symposium](https://symposium.dev/). The export command is currently on the generator's `feat/portable-registry-export` branch; this known revision includes it:
+
+   ```sh
+   cargo install --git https://github.com/mcaveniathor/symposiast \
+     --rev b34ec10e8603bc64c2bc8abce6bbe466e404f119 --locked symposiast
+   symposiast export-registry --help
+   ```
+
+   [Inspect that generator revision](https://github.com/mcaveniathor/symposiast/tree/b34ec10e8603bc64c2bc8abce6bbe466e404f119). Use the repository's pinned toolchain if your installed Rust is too old. Once the export command is available in your chosen newer revision, you can use that revision instead and record it in your PR.
+
+   Generate a bundle for an **exact published crates.io release**, using your chosen authenticated agent. For example, replace the package, version, and paths below:
 
    ```sh
    symposiast build your-crate --version 1.2.3 --agent codex \
