@@ -1,0 +1,272 @@
+{
+  "summary": "Focused bevy_app 0.20.0 guidance for reusable synchronous plugins and caller-driven simulation schedules, with default features disabled and std enabled. The recipes use bevy_ecs =0.20.0 with the same feature selection. Browser rendering, web bindings, networking, asynchronous plugin readiness, fixed wall-clock pacing, and deterministic replay are outside this coverage. Analysis is imported from frozen published-crate evidence; no separate agent review is recorded.",
+  "findings": [
+    {
+      "id": "plugin-composition",
+      "title": "Configure reusable behavior through Plugin::build",
+      "guidance": "Plugin::build configures the App when the plugin is registered. Both fn(&mut App) and a struct implementing Plugin work; plugins are unique by default. Put resource and system registration in build, and expose game configuration through the plugin type. The recipe uses synchronous setup; callers embedding App must respect readiness, finish, and cleanup for plugins that need them.",
+      "basis": "documented",
+      "features": [
+        "std"
+      ],
+      "citations": [
+        {
+          "source_id": "e0011",
+          "start_line": 5,
+          "end_line": 99
+        },
+        {
+          "source_id": "e0005",
+          "start_line": 229,
+          "end_line": 295
+        }
+      ]
+    },
+    {
+      "id": "schedule-initialization-and-driving",
+      "title": "Creating a schedule does not schedule its execution",
+      "guidance": "init_schedule creates a missing schedule and edit_schedule can configure it. The Main schedule only runs labels listed in MainScheduleOrder. For caller-driven ticks, run the custom schedule explicitly; for a phase inside App::update, insert its label into MainScheduleOrder. App::update is one update call, not a wall-clock fixed-timestep guarantee.",
+      "basis": "inferred",
+      "features": [
+        "std"
+      ],
+      "citations": [
+        {
+          "source_id": "e0005",
+          "start_line": 137,
+          "end_line": 164
+        },
+        {
+          "source_id": "e0005",
+          "start_line": 1254,
+          "end_line": 1288
+        },
+        {
+          "source_id": "e0009",
+          "start_line": 211,
+          "end_line": 246
+        },
+        {
+          "source_id": "e0009",
+          "start_line": 288,
+          "end_line": 305
+        }
+      ]
+    },
+    {
+      "id": "single-threaded-executor",
+      "title": "Use the 0.20.0 executor API",
+      "guidance": "The published MainSchedulePlugin configures simple facilitator schedules with schedule.set_executor(SingleThreadedExecutor::new()). The recipes apply the same release-specific API to custom schedules. Single-threaded execution alone does not establish deterministic query order or deterministic cross-platform simulation.",
+      "basis": "inferred",
+      "features": [
+        "std"
+      ],
+      "citations": [
+        {
+          "source_id": "e0009",
+          "start_line": 1,
+          "end_line": 11
+        },
+        {
+          "source_id": "e0009",
+          "start_line": 308,
+          "end_line": 327
+        }
+      ]
+    },
+    {
+      "id": "minimal-std-features",
+      "title": "Keep the simulation feature set explicit",
+      "guidance": "The bevy_app default feature set includes reflection, bevy_ecs defaults, and the error panic hook. These recipes disable defaults on both component crates and enable std. The separately declared web feature adds platform web support and browser dependencies; the minimal simulation recipes do not provide a browser event loop or browser API integration. Cargo feature unification can enable additional features in a larger consumer graph.",
+      "basis": "inferred",
+      "features": [
+        "std"
+      ],
+      "citations": [
+        {
+          "source_id": "e0001",
+          "start_line": 38,
+          "end_line": 85
+        },
+        {
+          "source_id": "e0001",
+          "start_line": 94,
+          "end_line": 109
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "external-simulation-tick",
+      "title": "Drive a plugin-owned simulation schedule explicitly",
+      "description": "A synchronous plugin installs a custom schedule with the 0.20.0 SingleThreadedExecutor API. An external caller advances exactly three simulation ticks. It supplies no wall-clock pacing, networking, renderer, or browser event loop.",
+      "code": "use bevy_app::{App, Plugin, PluginsState};\nuse bevy_ecs::{prelude::*, schedule::{ScheduleLabel, SingleThreadedExecutor}};\n\n#[derive(ScheduleLabel, Debug, Clone, PartialEq, Eq, Hash)]\nstruct SimulationTick;\n\n#[derive(Resource, Default)]\nstruct Tick(u64);\n\nstruct SimulationPlugin;\nimpl Plugin for SimulationPlugin {\n    fn build(&self, app: &mut App) {\n        app.init_resource::<Tick>()\n            .init_schedule(SimulationTick)\n            .edit_schedule(SimulationTick, |schedule| {\n                schedule.set_executor(SingleThreadedExecutor::new());\n            })\n            .add_systems(SimulationTick, advance_tick);\n    }\n}\n\nfn advance_tick(mut tick: ResMut<Tick>) {\n    tick.0 += 1;\n}\n\nfn main() {\n    let mut app = App::new();\n    app.add_plugins(SimulationPlugin);\n    // These plugins are synchronous; an async plugin needs readiness polling.\n    assert_eq!(app.plugins_state(), PluginsState::Ready);\n    app.finish();\n    app.cleanup();\n    for _ in 0..3 {\n        app.world_mut().run_schedule(SimulationTick);\n    }\n    assert_eq!(app.world().resource::<Tick>().0, 3);\n}\n",
+      "default_features": false,
+      "features": [
+        "std"
+      ],
+      "dependencies": {
+        "bevy_ecs": {
+          "version": "=0.20.0",
+          "features": [
+            "std"
+          ],
+          "default_features": false
+        }
+      },
+      "citations": [
+        {
+          "source_id": "e0011",
+          "start_line": 5,
+          "end_line": 59
+        },
+        {
+          "source_id": "e0005",
+          "start_line": 229,
+          "end_line": 295
+        },
+        {
+          "source_id": "e0005",
+          "start_line": 1254,
+          "end_line": 1288
+        },
+        {
+          "source_id": "e0009",
+          "start_line": 288,
+          "end_line": 327
+        }
+      ]
+    },
+    {
+      "id": "main-loop-custom-phase",
+      "title": "Insert a custom phase into App::update",
+      "description": "A function plugin places a custom schedule immediately after Update so every caller-driven App::update executes it once. The counter assertion distinguishes initialization from actual execution; it is not a fixed-rate clock.",
+      "code": "use bevy_app::{App, MainScheduleOrder, PluginsState, Update};\nuse bevy_ecs::{prelude::*, schedule::{ScheduleLabel, SingleThreadedExecutor}};\n\n#[derive(ScheduleLabel, Debug, Clone, PartialEq, Eq, Hash)]\nstruct PublishState;\n\n#[derive(Resource, Default)]\nstruct Counters { updates: u64, published: u64 }\n\nfn update_state(mut counters: ResMut<Counters>) {\n    counters.updates += 1;\n}\nfn publish_state(mut counters: ResMut<Counters>) {\n    counters.published = counters.updates;\n}\nfn publishing_plugin(app: &mut App) {\n    app.init_resource::<Counters>()\n        .init_schedule(PublishState)\n        .edit_schedule(PublishState, |schedule| {\n            schedule.set_executor(SingleThreadedExecutor::new());\n        })\n        .add_systems(Update, update_state)\n        .add_systems(PublishState, publish_state);\n    app.world_mut().resource_mut::<MainScheduleOrder>()\n        .insert_after(Update, PublishState);\n}\nfn main() {\n    let mut app = App::new();\n    app.add_plugins(publishing_plugin);\n    assert_eq!(app.plugins_state(), PluginsState::Ready);\n    app.finish();\n    app.cleanup();\n    app.update();\n    app.update();\n    let counters = app.world().resource::<Counters>();\n    assert_eq!((counters.updates, counters.published), (2, 2));\n}\n",
+      "default_features": false,
+      "features": [
+        "std"
+      ],
+      "dependencies": {
+        "bevy_ecs": {
+          "version": "=0.20.0",
+          "features": [
+            "std"
+          ],
+          "default_features": false
+        }
+      },
+      "citations": [
+        {
+          "source_id": "e0011",
+          "start_line": 24,
+          "end_line": 37
+        },
+        {
+          "source_id": "e0005",
+          "start_line": 137,
+          "end_line": 164
+        },
+        {
+          "source_id": "e0005",
+          "start_line": 229,
+          "end_line": 295
+        },
+        {
+          "source_id": "e0009",
+          "start_line": 211,
+          "end_line": 246
+        },
+        {
+          "source_id": "e0009",
+          "start_line": 288,
+          "end_line": 327
+        }
+      ]
+    }
+  ],
+  "example_coverage": [
+    {
+      "example_id": "doc-9e77c3bf1795af86-1",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks."
+    },
+    {
+      "example_id": "doc-9e77c3bf1795af86-2",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks."
+    },
+    {
+      "example_id": "doc-9e77c3bf1795af86-3",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks."
+    },
+    {
+      "example_id": "doc-25c721e57b5c8046-4",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks."
+    },
+    {
+      "example_id": "doc-25c721e57b5c8046-5",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks."
+    },
+    {
+      "example_id": "doc-a7e09429eb91852b-6",
+      "disposition": "adapted",
+      "recipe_ids": [
+        "main-loop-custom-phase"
+      ],
+      "reason": "Adapt the documented function or struct plugin into a complete caller-driven application."
+    },
+    {
+      "example_id": "doc-a7e09429eb91852b-7",
+      "disposition": "adapted",
+      "recipe_ids": [
+        "external-simulation-tick"
+      ],
+      "reason": "Adapt the documented function or struct plugin into a complete caller-driven application."
+    },
+    {
+      "example_id": "doc-8c9f2f0c70c9b96c-8",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks."
+    },
+    {
+      "example_id": "doc-8c9f2f0c70c9b96c-9",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks."
+    },
+    {
+      "example_id": "doc-6baa962bdc58fdbd-10",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks."
+    },
+    {
+      "example_id": "doc-6baa962bdc58fdbd-11",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks."
+    },
+    {
+      "example_id": "doc-56281b6ea24d28c8-12",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks."
+    },
+    {
+      "example_id": "doc-56281b6ea24d28c8-13",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks."
+    }
+  ]
+}

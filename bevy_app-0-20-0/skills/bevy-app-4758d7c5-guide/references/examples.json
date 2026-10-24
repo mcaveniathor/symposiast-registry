@@ -1,0 +1,229 @@
+{
+  "coverage": [
+    {
+      "disposition": "skipped",
+      "example_id": "doc-9e77c3bf1795af86-1",
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-9e77c3bf1795af86-2",
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-9e77c3bf1795af86-3",
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-25c721e57b5c8046-4",
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-25c721e57b5c8046-5",
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "adapted",
+      "example_id": "doc-a7e09429eb91852b-6",
+      "reason": "Adapt the documented function or struct plugin into a complete caller-driven application.",
+      "recipe_ids": [
+        "main-loop-custom-phase"
+      ]
+    },
+    {
+      "disposition": "adapted",
+      "example_id": "doc-a7e09429eb91852b-7",
+      "reason": "Adapt the documented function or struct plugin into a complete caller-driven application.",
+      "recipe_ids": [
+        "external-simulation-tick"
+      ]
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-8c9f2f0c70c9b96c-8",
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-8c9f2f0c70c9b96c-9",
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6baa962bdc58fdbd-10",
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6baa962bdc58fdbd-11",
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-56281b6ea24d28c8-12",
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-56281b6ea24d28c8-13",
+      "reason": "Outside the focused synchronous plugin and custom schedule tasks.",
+      "recipe_ids": []
+    }
+  ],
+  "inventory": {
+    "examples": [
+      {
+        "citation": {
+          "end_line": 438,
+          "source_id": "e0009",
+          "start_line": 427
+        },
+        "code": "# use bevy_app::prelude::*;\n# use bevy_ecs::prelude::*;\nApp::new()\n  .add_systems(\n    RunFixedMainLoop,\n    update_camera_rotation.in_set(RunFixedMainLoopSystems::BeforeFixedMainLoop))\n  .add_systems(FixedUpdate, update_physics);\n\n# fn update_camera_rotation() {}\n# fn update_physics() {}\n",
+        "id": "doc-9e77c3bf1795af86-1",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 469,
+          "source_id": "e0009",
+          "start_line": 451
+        },
+        "code": "# use bevy_app::prelude::*;\n# use bevy_ecs::prelude::*;\nApp::new()\n  .add_systems(FixedUpdate, update_physics)\n  .add_systems(\n    RunFixedMainLoop,\n    (\n      // This system will be called before all interpolation systems\n      // that third-party plugins might add.\n      prepare_for_interpolation\n        .after(RunFixedMainLoopSystems::FixedMainLoop)\n        .before(RunFixedMainLoopSystems::AfterFixedMainLoop),\n    )\n  );\n\n# fn prepare_for_interpolation() {}\n# fn update_physics() {}\n",
+        "id": "doc-9e77c3bf1795af86-2",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 491,
+          "source_id": "e0009",
+          "start_line": 480
+        },
+        "code": "# use bevy_app::prelude::*;\n# use bevy_ecs::prelude::*;\nApp::new()\n  .add_systems(FixedUpdate, update_physics)\n  .add_systems(\n    RunFixedMainLoop,\n    interpolate_transforms.in_set(RunFixedMainLoopSystems::AfterFixedMainLoop));\n\n# fn interpolate_transforms() {}\n# fn update_physics() {}\n",
+        "id": "doc-9e77c3bf1795af86-3",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 25,
+          "source_id": "e0010",
+          "start_line": 17
+        },
+        "code": "# use bevy_app::{App, NoopPluginGroup as MinimalPlugins, PluginGroup, PanicHandlerPlugin};\nfn main() {\n    App::new()\n        .add_plugins(MinimalPlugins)\n        .add_plugins(PanicHandlerPlugin)\n        .run();\n}\n",
+        "id": "doc-25c721e57b5c8046-4",
+        "info": "no_run"
+      },
+      {
+        "citation": {
+          "end_line": 36,
+          "source_id": "e0010",
+          "start_line": 29
+        },
+        "code": "# use bevy_app::{App, NoopPluginGroup as DefaultPlugins, PluginGroup, PanicHandlerPlugin};\nfn main() {\n    App::new()\n        .add_plugins(DefaultPlugins.build().disable::<PanicHandlerPlugin>())\n        .run();\n}\n",
+        "id": "doc-25c721e57b5c8046-5",
+        "info": "no_run"
+      },
+      {
+        "citation": {
+          "end_line": 37,
+          "source_id": "e0011",
+          "start_line": 28
+        },
+        "code": "# use bevy_app::{App, Update};\nApp::new().add_plugins(my_plugin).run();\n\n// This function implements `Plugin`, along with every other `fn(&mut App)`.\npub fn my_plugin(app: &mut App) {\n    app.add_systems(Update, hello_world);\n}\n# fn hello_world() {}\n",
+        "id": "doc-a7e09429eb91852b-6",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 56,
+          "source_id": "e0011",
+          "start_line": 41
+        },
+        "code": "# use bevy_app::*;\npub struct AccessibilityPlugin {\n    pub flicker_damping: bool,\n    // ...\n}\n\nimpl Plugin for AccessibilityPlugin {\n    fn build(&self, app: &mut App) {\n        if self.flicker_damping {\n            app.add_systems(PostUpdate, damp_flickering);\n        }\n    }\n}\n# fn damp_flickering() {}\n",
+        "id": "doc-a7e09429eb91852b-7",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 118,
+          "source_id": "e0012",
+          "start_line": 17
+        },
+        "code": "# use bevy_app::*;\n#\n# mod velocity {\n#     use bevy_app::*;\n#     #[derive(Default)]\n#     pub struct VelocityPlugin;\n#     impl Plugin for VelocityPlugin { fn build(&self, _: &mut App) {} }\n# }\n#\n# mod collision {\n#     pub mod capsule {\n#         use bevy_app::*;\n#         #[derive(Default)]\n#         pub struct CapsuleCollisionPlugin;\n#         impl Plugin for CapsuleCollisionPlugin { fn build(&self, _: &mut App) {} }\n#     }\n# }\n#\n# #[derive(Default)]\n# pub struct TickratePlugin;\n# impl Plugin for TickratePlugin { fn build(&self, _: &mut App) {} }\n#\n# pub fn bullet_time_plugin(_: &mut App) {}\n#\n# mod features {\n#   use bevy_app::*;\n#   #[derive(Default)]\n#   pub struct ForcePlugin;\n#   impl Plugin for ForcePlugin { fn build(&self, _: &mut App) {} }\n#\n#   pub fn force_debug_plugin(_: &mut App) {}\n# }\n#\n# mod web {\n#   use bevy_app::*;\n#   #[derive(Default)]\n#   pub struct WebCompatibilityPlugin;\n#   impl Plugin for WebCompatibilityPlugin { fn build(&self, _: &mut App) {} }\n# }\n#\n# mod audio {\n#   use bevy_app::*;\n#   #[derive(Default)]\n#   pub struct AudioPlugins;\n#   impl PluginGroup for AudioPlugins {\n#     fn build(self) -> PluginGroupBuilder {\n#       PluginGroupBuilder::start::<Self>()\n#     }\n#   }\n# }\n#\n# mod internal {\n#   use bevy_app::*;\n#   #[derive(Default)]\n#   pub struct InternalPlugin;\n#   impl Plugin for InternalPlugin { fn build(&self, _: &mut App) {} }\n#\n#   pub fn internal_plugin(_: &mut App) {}\n# }\n#\nplugin_group! {\n    /// Doc comments and annotations are supported: they will be added to the generated plugin\n    /// group.\n    #[derive(Debug)]\n    pub struct PhysicsPlugins {\n        // If referencing a plugin within the same module, you must prefix it with a colon `:`.\n        :TickratePlugin,\n        // If referencing a plugin within a different module, there must be three colons `:::`\n        // between the final module and the plugin name.\n        collision::capsule:::CapsuleCollisionPlugin,\n        velocity:::VelocityPlugin,\n        // If you feature-flag a plugin, it will be automatically documented. There can only be\n        // one automatically documented feature flag, and it must be first. All other\n        // `#[cfg()]` attributes must be wrapped by `#[custom()]`.\n        #[cfg(feature = \"external_forces\")]\n        features:::ForcePlugin,\n        // More complicated `#[cfg()]`s and annotations are not supported by automatic doc\n        // generation, in which case you must wrap it in `#[custom()]`.\n        #[custom(cfg(target_arch = \"wasm32\"))]\n        web:::WebCompatibilityPlugin,\n        // You can nest `PluginGroup`s within other `PluginGroup`s, you just need the\n        // `#[plugin_group]` attribute.\n        #[plugin_group]\n        audio:::AudioPlugins,\n        // You can hide plugins from documentation. Due to macro limitations, hidden plugins\n        // must be after all other plugins.\n        #[doc(hidden)]\n        internal:::InternalPlugin,\n        // Can end with a \"fn block\" for plugin function members of the group.\n        @fn {\n            :bullet_time_plugin,\n            #[cfg(feature = \"external_forces\")]\n            features:::force_debug_plugin,\n            #[doc(hidden)]\n            internal:::internal_plugin,\n        }\n    }\n    /// You may add doc comments after the plugin group as well. They will be appended after\n    /// the documented list of plugins.\n}\n",
+        "id": "doc-8c9f2f0c70c9b96c-8",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 595,
+          "source_id": "e0012",
+          "start_line": 588
+        },
+        "code": "# use bevy_app::prelude::*;\nuse bevy_app::NoopPluginGroup as MinimalPlugins;\n\nfn main(){\n    App::new().add_plugins(MinimalPlugins).run();\n}\n",
+        "id": "doc-8c9f2f0c70c9b96c-9",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 65,
+          "source_id": "e0015",
+          "start_line": 28
+        },
+        "code": "# use bevy_app::{App, SubApp, Main};\n# use bevy_derive::AppLabel;\n# use bevy_ecs::prelude::*;\n# use bevy_ecs::schedule::ScheduleLabel;\n\n#[derive(Resource, Default)]\nstruct Val(pub i32);\n\n#[derive(Debug, Clone, Copy, Hash, PartialEq, Eq, AppLabel, Default)]\nstruct ExampleApp;\n\n// Create an app with a certain resource.\nlet mut app = App::new();\napp.insert_resource(Val(10));\n\n// Create a sub-app with the same resource and a single schedule.\nlet mut sub_app = SubApp::new();\nsub_app.update_schedule = Some(Main.intern());\nsub_app.insert_resource(Val(100));\n\n// Setup an extract function to copy the resource's value in the main world.\nsub_app.set_extract(|main_world, sub_world| {\n    sub_world.resource_mut::<Val>().0 = main_world.resource::<Val>().0;\n});\n\n// Schedule a system that will verify extraction is working.\nsub_app.add_systems(Main, |counter: Res<Val>| {\n    // The value will be copied during extraction, so we should see 10 instead of 100.\n    assert_eq!(counter.0, 10);\n});\n\n// Add the sub-app to the main app.\napp.insert_sub_app(ExampleApp, sub_app);\n\n// Update the application once (using the default runner).\napp.run();\n",
+        "id": "doc-6baa962bdc58fdbd-10",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 206,
+          "source_id": "e0015",
+          "start_line": 190
+        },
+        "code": "# use bevy_app::SubApp;\n# let mut app = SubApp::new();\nlet mut default_fn = app.take_extract();\napp.set_extract(move |main, render| {\n    // Do pre-extract custom logic\n    // [...]\n\n    // Call Bevy's default, which executes the Extract phase\n    if let Some(f) = default_fn.as_mut() {\n        f(main, render);\n    }\n\n    // Do post-extract custom logic\n    // [...]\n});\n",
+        "id": "doc-6baa962bdc58fdbd-11",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 28,
+          "source_id": "e0017",
+          "start_line": 20
+        },
+        "code": "# use bevy_app::{App, NoopPluginGroup as MinimalPlugins, PluginGroup, TerminalCtrlCHandlerPlugin};\nfn main() {\n    App::new()\n        .add_plugins(MinimalPlugins)\n        .add_plugins(TerminalCtrlCHandlerPlugin)\n        .run();\n}\n",
+        "id": "doc-56281b6ea24d28c8-12",
+        "info": "no_run"
+      },
+      {
+        "citation": {
+          "end_line": 46,
+          "source_id": "e0017",
+          "start_line": 32
+        },
+        "code": "# use bevy_app::{App, NoopPluginGroup as DefaultPlugins, PluginGroup, TerminalCtrlCHandlerPlugin, ctrlc};\nfn main() {\n    // Your own `Ctrl+C` handler\n    ctrlc::set_handler(move || {\n        // Other clean up code ...\n\n        TerminalCtrlCHandlerPlugin::gracefully_exit();\n    });\n\n    App::new()\n        .add_plugins(DefaultPlugins)\n        .run();\n}\n",
+        "id": "doc-56281b6ea24d28c8-13",
+        "info": "no_run"
+      }
+    ],
+    "warnings": [
+      "Example coverage is limited to collected Markdown code blocks and literal Rust doc attributes/comments. Unlabelled blocks are treated as Rust only in Rust documentation. Macros, cfg_attr, external includes, and generated documentation are not expanded; standalone example programs are still ordinary evidence.",
+      "e0005: Rust source could not be tokenized (possibly truncated); its documentation examples were not inventoried.",
+      "e0012:184: nonliteral doc attribute was not expanded.",
+      "e0012:178: nonliteral doc attribute was not expanded.",
+      "e0012:174: nonliteral doc attribute was not expanded.",
+      "e0012:170: nonliteral doc attribute was not expanded.",
+      "e0012:166: nonliteral doc attribute was not expanded."
+    ]
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "summary": "Focused bevy_ecs 0.20.0 guidance for standalone component simulation with resources and explicitly ordered systems. The recipe disables default features and enables std, and has no renderer, network stack, or browser APIs. Analysis is imported from frozen published-crate evidence; no separate agent review is recorded.",
+  "findings": [
+    {
+      "id": "components-and-resources",
+      "title": "Separate per-entity state from world-wide configuration",
+      "guidance": "Represent per-entity state as Component types and singleton simulation configuration or counters as Resource types. Systems express their data access through Query, Res, and ResMut. The complete recipe combines the published movement and resource examples.",
+      "basis": "documented",
+      "features": [
+        "std"
+      ],
+      "citations": [
+        {
+          "source_id": "e0003",
+          "start_line": 27,
+          "end_line": 110
+        },
+        {
+          "source_id": "e0003",
+          "start_line": 123,
+          "end_line": 158
+        }
+      ]
+    },
+    {
+      "id": "explicit-system-order",
+      "title": "Order dependent simulation phases explicitly",
+      "guidance": "Systems with semantic dependencies need explicit schedule ordering. The published resource example chains a writer and reader; the change-detection example uses system sets and after. Use chain for a small linear sequence, and named sets or explicit before/after constraints for broader plugin composition. Ordering systems does not make entity iteration or floating-point behavior deterministic.",
+      "basis": "inferred",
+      "features": [
+        "std"
+      ],
+      "citations": [
+        {
+          "source_id": "e0003",
+          "start_line": 112,
+          "end_line": 117
+        },
+        {
+          "source_id": "e0010",
+          "start_line": 14,
+          "end_line": 30
+        },
+        {
+          "source_id": "e0005",
+          "start_line": 26,
+          "end_line": 42
+        },
+        {
+          "source_id": "e0005",
+          "start_line": 58,
+          "end_line": 63
+        }
+      ]
+    },
+    {
+      "id": "std-only-feature-selection",
+      "title": "Match the feature selection before reusing a recipe",
+      "guidance": "The default features include std, reflection, async_executor, and backtrace; multi_threaded is a separate feature. This recipe uses default-features=false and features=[std] and intentionally does not request multi_threaded. That is a minimal simulation configuration, not a guarantee about all target dependencies or a browser runtime test. Check the complete consumer feature graph and compile its intended target.",
+      "basis": "inferred",
+      "features": [
+        "std"
+      ],
+      "citations": [
+        {
+          "source_id": "e0001",
+          "start_line": 47,
+          "end_line": 104
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "ordered-component-simulation",
+      "title": "Run resource-configured movement and observe the result",
+      "description": "A complete standalone World and Schedule apply two fixed integer simulation steps and sum moving-entity positions after each movement system. Integer values keep this small example exact; this is not a general determinism guarantee.",
+      "code": "use bevy_ecs::prelude::*;\n\n#[derive(Component, Debug, PartialEq, Eq)]\nstruct Position(i64);\n#[derive(Component)]\nstruct Velocity(i64);\n#[derive(Resource)]\nstruct Step(i64);\n#[derive(Resource, Default)]\nstruct Summary { ticks: u64, position_sum: i64 }\n\nfn movement(step: Res<Step>, mut query: Query<(&mut Position, &Velocity)>) {\n    for (mut position, velocity) in &mut query {\n        position.0 += velocity.0 * step.0;\n    }\n}\nfn summarize(query: Query<&Position, With<Velocity>>, mut summary: ResMut<Summary>) {\n    summary.ticks += 1;\n    summary.position_sum = query.iter().map(|position| position.0).sum();\n}\nfn main() {\n    let mut world = World::new();\n    world.insert_resource(Step(2));\n    world.insert_resource(Summary::default());\n    let moving = world.spawn((Position(0), Velocity(3))).id();\n    let stationary = world.spawn(Position(10)).id();\n    let mut schedule = Schedule::default();\n    schedule.add_systems((movement, summarize).chain());\n    schedule.run(&mut world);\n    schedule.run(&mut world);\n    assert_eq!(world.entity(moving).get::<Position>(), Some(&Position(12)));\n    assert_eq!(world.entity(stationary).get::<Position>(), Some(&Position(10)));\n    let summary = world.resource::<Summary>();\n    assert_eq!((summary.ticks, summary.position_sum), (2, 12));\n}\n",
+      "default_features": false,
+      "features": [
+        "std"
+      ],
+      "dependencies": {},
+      "citations": [
+        {
+          "source_id": "e0003",
+          "start_line": 27,
+          "end_line": 110
+        },
+        {
+          "source_id": "e0003",
+          "start_line": 123,
+          "end_line": 180
+        },
+        {
+          "source_id": "e0010",
+          "start_line": 14,
+          "end_line": 48
+        }
+      ]
+    }
+  ],
+  "example_coverage": [
+    {
+      "example_id": "doc-403dabee035e1211-1",
+      "disposition": "supporting",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ],
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation."
+    },
+    {
+      "example_id": "doc-403dabee035e1211-2",
+      "disposition": "supporting",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ],
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation."
+    },
+    {
+      "example_id": "doc-403dabee035e1211-3",
+      "disposition": "supporting",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ],
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation."
+    },
+    {
+      "example_id": "doc-403dabee035e1211-4",
+      "disposition": "supporting",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ],
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation."
+    },
+    {
+      "example_id": "doc-403dabee035e1211-5",
+      "disposition": "supporting",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ],
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation."
+    },
+    {
+      "example_id": "doc-403dabee035e1211-6",
+      "disposition": "adapted",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ],
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation."
+    },
+    {
+      "example_id": "doc-403dabee035e1211-7",
+      "disposition": "supporting",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ],
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation."
+    },
+    {
+      "example_id": "doc-403dabee035e1211-8",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-403dabee035e1211-9",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-403dabee035e1211-10",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-403dabee035e1211-11",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-403dabee035e1211-12",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-403dabee035e1211-13",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-403dabee035e1211-14",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-a7e09429eb91852b-15",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-a7e09429eb91852b-16",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-8c9f2f0c70c9b96c-17",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-8c9f2f0c70c9b96c-18",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-8c9f2f0c70c9b96c-19",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-854177944eac1600-20",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-0b5ded55f04f22ac-21",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-0b5ded55f04f22ac-22",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-0b5ded55f04f22ac-23",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-6baa962bdc58fdbd-24",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-6baa962bdc58fdbd-25",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-984c599c9d1dae76-26",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-087a7de4d36a294e-27",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-087a7de4d36a294e-28",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "An intentional compile-fail demonstration of non-Sync resource data; the recipe uses plain Sync values and does not adapt the negative example."
+    },
+    {
+      "example_id": "doc-087a7de4d36a294e-29",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-e326c78978725d5d-30",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-e326c78978725d5d-31",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-e326c78978725d5d-32",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-e326c78978725d5d-33",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-e326c78978725d5d-34",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-e326c78978725d5d-35",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-e326c78978725d5d-36",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-c1bc979081f7fda7-37",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-c1bc979081f7fda7-38",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-c1bc979081f7fda7-39",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-c1bc979081f7fda7-40",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    },
+    {
+      "example_id": "doc-c1bc979081f7fda7-41",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task."
+    }
+  ]
+}

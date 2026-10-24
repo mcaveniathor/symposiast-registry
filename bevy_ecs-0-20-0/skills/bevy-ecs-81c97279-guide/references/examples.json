@@ -1,0 +1,684 @@
+{
+  "coverage": [
+    {
+      "disposition": "supporting",
+      "example_id": "doc-403dabee035e1211-1",
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation.",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ]
+    },
+    {
+      "disposition": "supporting",
+      "example_id": "doc-403dabee035e1211-2",
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation.",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ]
+    },
+    {
+      "disposition": "supporting",
+      "example_id": "doc-403dabee035e1211-3",
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation.",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ]
+    },
+    {
+      "disposition": "supporting",
+      "example_id": "doc-403dabee035e1211-4",
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation.",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ]
+    },
+    {
+      "disposition": "supporting",
+      "example_id": "doc-403dabee035e1211-5",
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation.",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ]
+    },
+    {
+      "disposition": "adapted",
+      "example_id": "doc-403dabee035e1211-6",
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation.",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ]
+    },
+    {
+      "disposition": "supporting",
+      "example_id": "doc-403dabee035e1211-7",
+      "reason": "Use the documented component, world, resource, query, movement, and filter patterns in the complete ordered simulation.",
+      "recipe_ids": [
+        "ordered-component-simulation"
+      ]
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-403dabee035e1211-8",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-403dabee035e1211-9",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-403dabee035e1211-10",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-403dabee035e1211-11",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-403dabee035e1211-12",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-403dabee035e1211-13",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-403dabee035e1211-14",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-a7e09429eb91852b-15",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-a7e09429eb91852b-16",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-8c9f2f0c70c9b96c-17",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-8c9f2f0c70c9b96c-18",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-8c9f2f0c70c9b96c-19",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-854177944eac1600-20",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-0b5ded55f04f22ac-21",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-0b5ded55f04f22ac-22",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-0b5ded55f04f22ac-23",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6baa962bdc58fdbd-24",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6baa962bdc58fdbd-25",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-984c599c9d1dae76-26",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-087a7de4d36a294e-27",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-087a7de4d36a294e-28",
+      "reason": "An intentional compile-fail demonstration of non-Sync resource data; the recipe uses plain Sync values and does not adapt the negative example.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-087a7de4d36a294e-29",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-e326c78978725d5d-30",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-e326c78978725d5d-31",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-e326c78978725d5d-32",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-e326c78978725d5d-33",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-e326c78978725d5d-34",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-e326c78978725d5d-35",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-e326c78978725d5d-36",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-c1bc979081f7fda7-37",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-c1bc979081f7fda7-38",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-c1bc979081f7fda7-39",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-c1bc979081f7fda7-40",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-c1bc979081f7fda7-41",
+      "reason": "Outside the focused component, resource, and explicitly ordered movement task.",
+      "recipe_ids": []
+    }
+  ],
+  "inventory": {
+    "examples": [
+      {
+        "citation": {
+          "end_line": 36,
+          "source_id": "e0003",
+          "start_line": 31
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n#[derive(Component)]\nstruct Position { x: f32, y: f32 }\n",
+        "id": "doc-403dabee035e1211-1",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 46,
+          "source_id": "e0003",
+          "start_line": 42
+        },
+        "code": "use bevy_ecs::world::World;\n\nlet world = World::default();\n",
+        "id": "doc-403dabee035e1211-2",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 69,
+          "source_id": "e0003",
+          "start_line": 52
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n#[derive(Component)]\nstruct Position { x: f32, y: f32 }\n#[derive(Component)]\nstruct Velocity { x: f32, y: f32 }\n\nlet mut world = World::new();\n\nlet entity = world\n    .spawn((Position { x: 0.0, y: 0.0 }, Velocity { x: 1.0, y: 0.0 }))\n    .id();\n\nlet entity_ref = world.entity(entity);\nlet position = entity_ref.get::<Position>().unwrap();\nlet velocity = entity_ref.get::<Velocity>().unwrap();\n",
+        "id": "doc-403dabee035e1211-3",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 86,
+          "source_id": "e0003",
+          "start_line": 75
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n#[derive(Component)]\nstruct Position { x: f32, y: f32 }\n\nfn print_position(query: Query<(Entity, &Position)>) {\n    for (entity, position) in &query {\n        println!(\"Entity {} is at position: x {}, y {}\", entity, position.x, position.y);\n    }\n}\n",
+        "id": "doc-403dabee035e1211-4",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 110,
+          "source_id": "e0003",
+          "start_line": 92
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n#[derive(Resource, Default)]\nstruct Time {\n    seconds: f32,\n}\n\nlet mut world = World::new();\n\nworld.insert_resource(Time::default());\n\nlet time = world.get_resource::<Time>().unwrap();\n\n// You can also access resources from Systems\nfn print_time(time: Res<Time>) {\n    println!(\"{}\", time.seconds);\n}\n",
+        "id": "doc-403dabee035e1211-5",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 158,
+          "source_id": "e0003",
+          "start_line": 123
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n#[derive(Component)]\nstruct Position { x: f32, y: f32 }\n#[derive(Component)]\nstruct Velocity { x: f32, y: f32 }\n\n// This system moves each entity with a Position and Velocity component\nfn movement(mut query: Query<(&mut Position, &Velocity)>) {\n    for (mut position, velocity) in &mut query {\n        position.x += velocity.x;\n        position.y += velocity.y;\n    }\n}\n\nfn main() {\n    // Create a new empty World to hold our Entities and Components\n    let mut world = World::new();\n\n    // Spawn an entity with Position and Velocity components\n    world.spawn((\n        Position { x: 0.0, y: 0.0 },\n        Velocity { x: 1.0, y: 0.0 },\n    ));\n\n    // Create a new Schedule, which defines an execution strategy for Systems\n    let mut schedule = Schedule::default();\n\n    // Add our system to the schedule\n    schedule.add_systems(movement);\n\n    // Run the schedule once. If your app has a \"loop\", you would run this once per loop\n    schedule.run(&mut world);\n}\n",
+        "id": "doc-403dabee035e1211-6",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 180,
+          "source_id": "e0003",
+          "start_line": 164
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n#[derive(Component)]\nstruct Position { x: f32, y: f32 }\n#[derive(Component)]\nstruct Player;\n#[derive(Component)]\nstruct Alive;\n\n// Gets the Position component of all Entities with Player component and without the Alive\n// component.\nfn system(query: Query<&Position, (With<Player>, Without<Alive>)>) {\n    for position in &query {\n    }\n}\n",
+        "id": "doc-403dabee035e1211-7",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 207,
+          "source_id": "e0003",
+          "start_line": 188
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n#[derive(Component)]\nstruct Position { x: f32, y: f32 }\n#[derive(Component)]\nstruct Velocity { x: f32, y: f32 }\n\n// Gets the Position component of all Entities whose Velocity has changed since the last run of the System\nfn system_changed(query: Query<&Position, Changed<Velocity>>) {\n    for position in &query {\n    }\n}\n\n// Gets the Position component of all Entities that had a Velocity component added since the last run of the System\nfn system_added(query: Query<&Position, Added<Velocity>>) {\n    for position in &query {\n    }\n}\n",
+        "id": "doc-403dabee035e1211-8",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 223,
+          "source_id": "e0003",
+          "start_line": 211
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n#[derive(Resource)]\nstruct Time(f32);\n\n// Prints \"time changed!\" if the Time resource has changed since the last run of the System\nfn system(time: Res<Time>) {\n    if time.is_changed() {\n        println!(\"time changed!\");\n    }\n}\n",
+        "id": "doc-403dabee035e1211-9",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 245,
+          "source_id": "e0003",
+          "start_line": 236
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n#[derive(Component)]\nstruct TableStoredComponent;\n\n#[derive(Component)]\n#[component(storage = \"SparseSet\")]\nstruct SparseStoredComponent;\n",
+        "id": "doc-403dabee035e1211-10",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 278,
+          "source_id": "e0003",
+          "start_line": 251
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n#[derive(Default, Component)]\nstruct Player;\n#[derive(Default, Component)]\nstruct Position { x: f32, y: f32 }\n#[derive(Default, Component)]\nstruct Velocity { x: f32, y: f32 }\n\n#[derive(Bundle, Default)]\nstruct PlayerBundle {\n    player: Player,\n    position: Position,\n    velocity: Velocity,\n}\n\nlet mut world = World::new();\n\n// Spawn a new entity and insert the default PlayerBundle\nworld.spawn(PlayerBundle::default());\n\n// Bundles play well with Rust's struct update syntax\nworld.spawn(PlayerBundle {\n    position: Position { x: 1.0, y: 1.0 },\n    ..Default::default()\n});\n",
+        "id": "doc-403dabee035e1211-11",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 300,
+          "source_id": "e0003",
+          "start_line": 285
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n#[derive(Message)]\nstruct Message(String);\n\nfn writer(mut writer: MessageWriter<Message>) {\n    writer.write(Message(\"Hello!\".to_string()));\n}\n\nfn reader(mut reader: MessageReader<Message>) {\n    for Message(message) in reader.read() {\n        println!(\"{}\", message);\n    }\n}\n",
+        "id": "doc-403dabee035e1211-12",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 323,
+          "source_id": "e0003",
+          "start_line": 306
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n#[derive(Event)]\nstruct Speak {\n    message: String\n}\n\nlet mut world = World::new();\n\nworld.add_observer(|event: On<Speak>| {\n    println!(\"{}\", event.message);\n});\n\nworld.trigger(Speak {\n    message: \"Hello!\".to_string(),\n});\n",
+        "id": "doc-403dabee035e1211-13",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 348,
+          "source_id": "e0003",
+          "start_line": 331
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n#[derive(EntityEvent)]\nstruct Explode {\n    entity: Entity,\n}\n\nlet mut world = World::new();\nlet entity = world.spawn_empty().id();\n\nworld.add_observer(|explode: On<Explode>, mut commands: Commands| {\n    println!(\"Entity {} goes BOOM!\", explode.entity);\n    commands.entity(explode.entity).despawn();\n});\n\nworld.trigger(Explode { entity });\n",
+        "id": "doc-403dabee035e1211-14",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 35,
+          "source_id": "e0011",
+          "start_line": 11
+        },
+        "code": "use bevy_ecs::prelude::*;\n\n// Our custom disabling component!\n#[derive(Component, Clone)]\nstruct Prefab;\n\n#[derive(Component)]\nstruct A;\n\nlet mut world = World::new();\nworld.register_disabling_component::<Prefab>();\nworld.spawn((A, Prefab));\nworld.spawn((A,));\nworld.spawn((A,));\n\nlet mut normal_query = world.query::<&A>();\nassert_eq!(2, normal_query.iter(&world).count());\n\nlet mut prefab_query = world.query_filtered::<&A, With<Prefab>>();\nassert_eq!(1, prefab_query.iter(&world).count());\n\nlet mut maybe_prefab_query = world.query::<(&A, Has<Prefab>)>();\nassert_eq!(3, maybe_prefab_query.iter(&world).count());\n",
+        "id": "doc-a7e09429eb91852b-15",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 77,
+          "source_id": "e0011",
+          "start_line": 56
+        },
+        "code": "use bevy_ecs::prelude::*;\nuse bevy_ecs::entity_disabling::{DefaultQueryFilters, Disabled};\n\nlet mut world = World::default();\n\n#[derive(Component)]\nstruct CustomDisabled;\n\nworld.register_disabling_component::<CustomDisabled>();\n\nworld.spawn(Disabled);\nworld.spawn(CustomDisabled);\n\n// resource_scope removes DefaultQueryFilters temporarily before re-inserting into the world.\nworld.resource_scope(|world: &mut World, _: Mut<DefaultQueryFilters>| {\n    // within this scope, we can query like no components are disabled.\n    assert_eq!(world.query::<&Disabled>().query(&world).count(), 1);\n    assert_eq!(world.query::<&CustomDisabled>().query(&world).count(), 1);\n    assert_eq!(world.query::<()>().query(&world).count(), world.entities().count_spawned() as usize);\n})\n",
+        "id": "doc-a7e09429eb91852b-16",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 72,
+          "source_id": "e0012",
+          "start_line": 54
+        },
+        "code": "# use bevy_ecs::prelude::*;\n# let mut world = World::new();\nlet root = world.spawn_empty().id();\nlet child1 = world.spawn(ChildOf(root)).id();\nlet child2 = world.spawn(ChildOf(root)).id();\nlet grandchild = world.spawn(ChildOf(child1)).id();\n\nassert_eq!(&**world.entity(root).get::<Children>().unwrap(), &[child1, child2]);\nassert_eq!(&**world.entity(child1).get::<Children>().unwrap(), &[grandchild]);\n\nworld.entity_mut(child2).remove::<ChildOf>();\nassert_eq!(&**world.entity(root).get::<Children>().unwrap(), &[child1]);\n\nworld.entity_mut(root).despawn();\nassert!(world.get_entity(root).is_err());\nassert!(world.get_entity(child1).is_err());\nassert!(world.get_entity(grandchild).is_err());\n",
+        "id": "doc-8c9f2f0c70c9b96c-17",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 91,
+          "source_id": "e0012",
+          "start_line": 76
+        },
+        "code": "# use bevy_ecs::prelude::*;\n# let mut world = World::new();\nlet mut child1 = None;\nlet mut child2 = None;\nlet mut grandchild = None;\nlet root = world.spawn_empty().with_children(|p| {\n    child1 = Some(p.spawn_empty().with_children(|p| {\n        grandchild = Some(p.spawn_empty().id());\n    }).id());\n    child2 = Some(p.spawn_empty().id());\n}).id();\n\nassert_eq!(&**world.entity(root).get::<Children>().unwrap(), &[child1.unwrap(), child2.unwrap()]);\nassert_eq!(&**world.entity(child1.unwrap()).get::<Children>().unwrap(), &[grandchild.unwrap()]);\n",
+        "id": "doc-8c9f2f0c70c9b96c-18",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 479,
+          "source_id": "e0012",
+          "start_line": 463
+        },
+        "code": "# use bevy_ecs::hierarchy::Children;\n# use bevy_ecs::name::Name;\n# use bevy_ecs::world::World;\n# use bevy_ecs::children;\nlet mut world = World::new();\nworld.spawn((\n    Name::new(\"Root\"),\n    children![\n        Name::new(\"Child1\"),\n        (\n            Name::new(\"Child2\"),\n            children![Name::new(\"Grandchild\")]\n        )\n    ]\n));\n",
+        "id": "doc-8c9f2f0c70c9b96c-19",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 51,
+          "source_id": "e0013",
+          "start_line": 29
+        },
+        "code": "# use bevy_ecs::intern::*;\n# use std::sync::Mutex;\n#[derive(PartialEq, Eq, Hash, Debug)]\nstruct Value(i32);\nimpl Internable for Value {\n    // ...\n# fn leak(&self) -> &'static Self { Box::leak(Box::new(Value(self.0))) }\n# fn ref_eq(&self, other: &Self) -> bool { std::ptr::eq(self, other ) }\n# fn ref_hash<H: std::hash::Hasher>(&self, state: &mut H) { std::ptr::hash(self, state); }\n}\nlet interner_1 = Interner::new();\nlet interner_2 = Interner::new();\n// Even though both values are identical, their interned forms do not\n// compare equal as they use different interner instances.\nassert_ne!(interner_1.intern(&Value(42)), interner_2.intern(&Value(42)));\n# // Store the interners inside a `static` so\n# // that miri doesn't report them as a memory leak.\n# static LEAKS: Mutex<Vec<Interner<Value>>> = Mutex::new(Vec::new());\n# let mut leaks = LEAKS.lock().unwrap();\n# leaks.push(interner_1);\n# leaks.push(interner_2);\n",
+        "id": "doc-854177944eac1600-20",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 90,
+          "source_id": "e0014",
+          "start_line": 68
+        },
+        "code": "# use bevy_ecs::define_label;\n// Defines `trait MyNewLabelTrait` and `static MY_NEW_LABEL_TRAIT_INTERNER`.\n// You don’t need to use the interner for anything; just give it a unique name.\ndefine_label!(\n    /// Documentation of label trait\n    MyNewLabelTrait,\n);\n\n/// A new label type implementing the new label trait.\n#[derive(Clone, Debug, Eq, Hash, PartialEq)]\npub struct MyLabel;\n\nimpl MyNewLabelTrait for MyLabel {\n    // Implementations of the trait must implement the `dyn_clone()` method in this way\n    // to enable cloning the trait object because `Clone` is not `dyn` compatible.\n    fn dyn_clone(&self) -> Box<dyn MyNewLabelTrait> {\n        Box::new(self.clone())\n    }\n}\n\nassert_eq!(MyLabel.intern(), MyLabel.intern());\n",
+        "id": "doc-0b5ded55f04f22ac-21",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 127,
+          "source_id": "e0014",
+          "start_line": 94
+        },
+        "code": "# use bevy_ecs::define_label;\ndefine_label!(\n    /// Documentation of another label trait\n    MyNewExtendedLabelTrait,\n    extra_methods: {\n        // Extra methods for the trait can be defined here\n        fn additional_method(&self) -> i32;\n    },\n    extra_methods_impl: {\n        // Implementation of the extra methods for Interned<dyn MyNewExtendedLabelTrait>,\n        // which should usually forward to the contained value.\n        fn additional_method(&self) -> i32 {\n            (**self).additional_method()\n        }\n    }\n);\n\n#[derive(Clone, Debug, Eq, Hash, PartialEq)]\npub struct MyLabel;\n\nimpl MyNewExtendedLabelTrait for MyLabel {\n    fn dyn_clone(&self) -> Box<dyn MyNewExtendedLabelTrait> {\n        Box::new(self.clone())\n    }\n\n    fn additional_method(&self) -> i32 {\n        42\n    }\n}\n\nlet interned_label = MyLabel.intern();\nassert_eq!(interned_label.additional_method(), 42);\n",
+        "id": "doc-0b5ded55f04f22ac-22",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 156,
+          "source_id": "e0014",
+          "start_line": 134
+        },
+        "code": "# use bevy_ecs::define_label;\ndefine_label!(Team);\n\nmacro_rules! define_team {\n    ($name:ident) => {\n        #[derive(Clone, Debug, Eq, Hash, PartialEq)]\n        pub struct $name;\n\n        impl Team for $name {\n            fn dyn_clone(&self) -> Box<dyn Team> {\n                Box::new(self.clone())\n            }\n        }\n    }\n}\n\ndefine_team!(Home);\ndefine_team!(Away);\n\nassert_eq!(Home.intern(), Home.intern());\nassert_ne!(Home.intern(), Away.intern());\n",
+        "id": "doc-0b5ded55f04f22ac-23",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 151,
+          "source_id": "e0015",
+          "start_line": 117
+        },
+        "code": "use bevy_ecs::prelude::*;\nuse bevy_ecs::entity::EntityHashSet;\n\n#[derive(Component)]\nstruct MyTrackedComponent;\n\n#[derive(Resource, Default)]\nstruct TrackedEntities(EntityHashSet);\n\nlet mut world = World::new();\nworld.init_resource::<TrackedEntities>();\n\n// No entities with `MyTrackedComponent` have been added yet, so we can safely add component hooks\nlet mut tracked_component_query = world.query::<&MyTrackedComponent>();\nassert!(tracked_component_query.iter(&world).next().is_none());\n\nworld.register_component_hooks::<MyTrackedComponent>().on_add(|mut world, context| {\n   let mut tracked_entities = world.resource_mut::<TrackedEntities>();\n  tracked_entities.0.insert(context.entity);\n});\n\nworld.register_component_hooks::<MyTrackedComponent>().on_remove(|mut world, context| {\n  let mut tracked_entities = world.resource_mut::<TrackedEntities>();\n  tracked_entities.0.remove(&context.entity);\n});\n\nlet entity = world.spawn(MyTrackedComponent).id();\nlet tracked_entities = world.resource::<TrackedEntities>();\nassert!(tracked_entities.0.contains(&entity));\n\nworld.despawn(entity);\nlet tracked_entities = world.resource::<TrackedEntities>();\nassert!(!tracked_entities.0.contains(&entity));\n",
+        "id": "doc-6baa962bdc58fdbd-24",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 582,
+          "source_id": "e0015",
+          "start_line": 571
+        },
+        "code": "# use bevy_ecs::component::Component;\n# use bevy_ecs::system::IntoSystem;\n# use bevy_ecs::lifecycle::RemovedComponents;\n#\n# #[derive(Component)]\n# struct MyComponent;\nfn react_on_removal(mut removed: RemovedComponents<MyComponent>) {\n    removed.read().for_each(|removed_entity| println!(\"{}\", removed_entity));\n}\n# bevy_ecs::system::assert_is_system(react_on_removal);\n",
+        "id": "doc-6baa962bdc58fdbd-25",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 149,
+          "source_id": "e0016",
+          "start_line": 137
+        },
+        "code": "# use bevy_ecs::prelude::*;\n# #[derive(Component)] pub struct Score(f32);\nfn increment_score(mut scores: Query<(NameOrEntity, &mut Score)>) {\n    for (name, mut score) in &mut scores {\n        score.0 += 1.0;\n        if score.0.is_nan() {\n            log::error!(\"Score for {name} is invalid\");\n        }\n    }\n}\n# bevy_ecs::system::assert_is_system(increment_score);\n",
+        "id": "doc-984c599c9d1dae76-26",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 46,
+          "source_id": "e0018",
+          "start_line": 26
+        },
+        "code": "# let mut world = World::default();\n# let mut schedule = Schedule::default();\n# use bevy_ecs::prelude::*;\n#[derive(Resource)]\nstruct MyResource { value: u32 }\n\nworld.insert_resource(MyResource { value: 42 });\n\nfn read_resource_system(resource: Res<MyResource>) {\n    assert_eq!(resource.value, 42);\n}\n\nfn write_resource_system(mut resource: ResMut<MyResource>) {\n    assert_eq!(resource.value, 42);\n    resource.value = 0;\n    assert_eq!(resource.value, 0);\n}\n# schedule.add_systems((read_resource_system, write_resource_system).chain());\n# schedule.run(&mut world);\n",
+        "id": "doc-087a7de4d36a294e-27",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 63,
+          "source_id": "e0018",
+          "start_line": 55
+        },
+        "code": "# use std::cell::RefCell;\n# use bevy_ecs::resource::Resource;\n\n#[derive(Resource)]\nstruct NotSync {\n   counter: RefCell<usize>,\n}\n",
+        "id": "doc-087a7de4d36a294e-28",
+        "info": "compile_fail"
+      },
+      {
+        "citation": {
+          "end_line": 75,
+          "source_id": "e0018",
+          "start_line": 66
+        },
+        "code": "# use std::cell::RefCell;\n# use bevy_ecs::resource::Resource;\nuse bevy_platform::cell::SyncCell;\n\n#[derive(Resource)]\nstruct ActuallySync {\n   counter: SyncCell<RefCell<usize>>,\n}\n",
+        "id": "doc-087a7de4d36a294e-29",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 40,
+          "source_id": "e0019",
+          "start_line": 24
+        },
+        "code": "# use bevy_ecs::hierarchy::Children;\n# use bevy_ecs::spawn::{Spawn, SpawnRelated};\n# use bevy_ecs::name::Name;\n# use bevy_ecs::world::World;\nlet mut world = World::new();\nworld.spawn((\n    Name::new(\"Root\"),\n    Children::spawn((\n        Spawn(Name::new(\"Child1\")),\n        Spawn((\n            Name::new(\"Child2\"),\n            Children::spawn(Spawn(Name::new(\"Grandchild\"))),\n        ))\n    )),\n));\n",
+        "id": "doc-e326c78978725d5d-30",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 118,
+          "source_id": "e0019",
+          "start_line": 105
+        },
+        "code": "# use bevy_ecs::hierarchy::Children;\n# use bevy_ecs::spawn::{Spawn, SpawnIter, SpawnRelated};\n# use bevy_ecs::name::Name;\n# use bevy_ecs::world::World;\nlet mut world = World::new();\nworld.spawn((\n    Name::new(\"Root\"),\n    Children::spawn((\n        Spawn(Name::new(\"Child1\")),\n        SpawnIter([\"Child2\", \"Child3\"].into_iter().map(Name::new)),\n    )),\n));\n",
+        "id": "doc-e326c78978725d5d-31",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 154,
+          "source_id": "e0019",
+          "start_line": 137
+        },
+        "code": "# use bevy_ecs::hierarchy::{Children, ChildOf};\n# use bevy_ecs::spawn::{Spawn, SpawnWith, SpawnRelated};\n# use bevy_ecs::name::Name;\n# use bevy_ecs::relationship::RelatedSpawner;\n# use bevy_ecs::world::World;\nlet mut world = World::new();\nworld.spawn((\n    Name::new(\"Root\"),\n    Children::spawn((\n        Spawn(Name::new(\"Child1\")),\n        SpawnWith(|parent: &mut RelatedSpawner<ChildOf>| {\n            parent.spawn(Name::new(\"Child2\"));\n            parent.spawn(Name::new(\"Child3\"));\n        }),\n    )),\n));\n",
+        "id": "doc-e326c78978725d5d-32",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 194,
+          "source_id": "e0019",
+          "start_line": 176
+        },
+        "code": "# use bevy_ecs::hierarchy::Children;\n# use bevy_ecs::spawn::{Spawn, WithRelated, SpawnRelated};\n# use bevy_ecs::name::Name;\n# use bevy_ecs::world::World;\nlet mut world = World::new();\n\nlet child2 = world.spawn(Name::new(\"Child2\")).id();\nlet child3 = world.spawn(Name::new(\"Child3\")).id();\n\nworld.spawn((\n    Name::new(\"Root\"),\n    Children::spawn((\n        Spawn(Name::new(\"Child1\")),\n        // This adds the already existing entities as children of Root.\n        WithRelated::new([child2, child3]),\n    )),\n));\n",
+        "id": "doc-e326c78978725d5d-33",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 238,
+          "source_id": "e0019",
+          "start_line": 222
+        },
+        "code": "# use bevy_ecs::hierarchy::Children;\n# use bevy_ecs::spawn::{Spawn, WithOneRelated, SpawnRelated};\n# use bevy_ecs::name::Name;\n# use bevy_ecs::world::World;\nlet mut world = World::new();\n\nlet child1 = world.spawn(Name::new(\"Child1\")).id();\n\nworld.spawn((\n    Name::new(\"Root\"),\n    Children::spawn((\n        // This adds the already existing entity as a child of Root.\n        WithOneRelated(child1),\n    )),\n));\n",
+        "id": "doc-e326c78978725d5d-34",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 485,
+          "source_id": "e0019",
+          "start_line": 467
+        },
+        "code": "# use bevy_ecs::hierarchy::Children;\n# use bevy_ecs::name::Name;\n# use bevy_ecs::world::World;\n# use bevy_ecs::related;\nlet mut world = World::new();\nworld.spawn((\n    Name::new(\"Root\"),\n    related!(Children[\n        Name::new(\"Child1\"),\n        (\n            Name::new(\"Child2\"),\n            related!(Children[\n                Name::new(\"Grandchild\"),\n            ])\n        )\n    ])\n));\n",
+        "id": "doc-e326c78978725d5d-35",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 438,
+          "source_id": "e0019",
+          "start_line": 428
+        },
+        "code": "# use bevy_ecs::hierarchy::Children;\n# use bevy_ecs::spawn::SpawnRelated;\n# use bevy_ecs::name::Name;\n# use bevy_ecs::world::World;\nlet mut world = World::new();\nworld.spawn((\n    Name::new(\"Root\"),\n    Children::spawn_one(Name::new(\"Child\")),\n));\n",
+        "id": "doc-e326c78978725d5d-36",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 220,
+          "source_id": "e0020",
+          "start_line": 210
+        },
+        "code": "# use bevy_ecs::prelude::*;\n# #[derive(Default, Clone)]\n# struct Handle<T>(core::marker::PhantomData<T>);\n# #[derive(Default, Clone)]\n# struct Image;\n#[derive(FromTemplate)]\nstruct Player {\n    image: Handle<Image>\n}\n",
+        "id": "doc-c1bc979081f7fda7-37",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 255,
+          "source_id": "e0020",
+          "start_line": 223
+        },
+        "code": "# use bevy_ecs::{prelude::*, template::TemplateContext};\n# #[derive(FromTemplate)]\n# struct Handle<T: core::marker::Unpin>(core::marker::PhantomData<T>);\n# #[derive(Default, Clone)]\n# struct Image;\nstruct Player {\n    image: Handle<Image>\n}\n\nimpl FromTemplate for Player {\n    type Template = PlayerTemplate;\n}\n\nstruct PlayerTemplate {\n    image: HandleTemplate<Image>,\n}\n\nimpl Template for PlayerTemplate {\n    type Output = Player;\n    fn build_template(&self, context: &mut TemplateContext) -> Result<Self::Output> {\n        Ok(Player {\n            image: self.image.build_template(context)?,\n        })\n    }\n\n    fn clone_template(&self) -> Self {\n        PlayerTemplate {\n            image: self.image.clone_template(),\n        }\n    }\n}\n",
+        "id": "doc-c1bc979081f7fda7-38",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 281,
+          "source_id": "e0020",
+          "start_line": 258
+        },
+        "code": "# use bevy_ecs::{prelude::*, template::TemplateContext};\n# struct Image;\n#[derive(FromTemplate)]\nstruct Counter {\n    #[template(Always10)]\n    count: usize\n}\n\n#[derive(Default)]\nstruct Always10;\n\nimpl Template for Always10 {\n    type Output = usize;\n\n    fn build_template(&self, context: &mut TemplateContext) -> Result<Self::Output> {\n        Ok(10)\n    }\n\n    fn clone_template(&self) -> Self {\n        Always10\n    }\n}\n",
+        "id": "doc-c1bc979081f7fda7-39",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 315,
+          "source_id": "e0020",
+          "start_line": 292
+        },
+        "code": "# use bevy_ecs::{prelude::*, template::{TemplateContext, OptionTemplate}};\n# use core::marker::PhantomData;\n# struct Handle<T>(PhantomData<T>);\n# struct HandleTemplate<T>(PhantomData<T>);\n# struct Image;\n# impl<T> FromTemplate for Handle<T> {\n#     type Template = HandleTemplate<T>;\n# }\n# impl<T> Template for HandleTemplate<T> {\n#    type Output = Handle<T>;\n#    fn build_template(&self, context: &mut TemplateContext) -> Result<Self::Output> {\n#        unimplemented!()\n#    }\n#    fn clone_template(&self) -> Self {\n#        unimplemented!()\n#    }\n# }\n#[derive(FromTemplate)]\nstruct Widget {\n    #[template(OptionTemplate<HandleTemplate<Image>>)]\n    image: Option<Handle<Image>>\n}\n",
+        "id": "doc-c1bc979081f7fda7-40",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 347,
+          "source_id": "e0020",
+          "start_line": 324
+        },
+        "code": "# use bevy_ecs::{prelude::*, template::TemplateContext};\n# use core::marker::PhantomData;\n# struct Handle<T>(PhantomData<T>);\n# struct HandleTemplate<T>(PhantomData<T>);\n# struct Image;\n# impl<T> FromTemplate for Handle<T> {\n#     type Template = HandleTemplate<T>;\n# }\n# impl<T> Template for HandleTemplate<T> {\n#    type Output = Handle<T>;\n#    fn build_template(&self, context: &mut TemplateContext) -> Result<Self::Output> {\n#        unimplemented!()\n#    }\n#    fn clone_template(&self) -> Self {\n#        unimplemented!()\n#    }\n# }\n#[derive(FromTemplate)]\nstruct Widget {\n    #[template(built_in)]\n    image: Option<Handle<Image>>\n}\n",
+        "id": "doc-c1bc979081f7fda7-41",
+        "info": ""
+      }
+    ],
+    "warnings": [
+      "Example coverage is limited to collected Markdown code blocks and literal Rust doc attributes/comments. Unlabelled blocks are treated as Rust only in Rust documentation. Macros, cfg_attr, external includes, and generated documentation are not expanded; standalone example programs are still ordinary evidence.",
+      "e0004: Rust source could not be tokenized (possibly truncated); its documentation examples were not inventoried.",
+      "e0014:184: nonliteral doc attribute was not expanded.",
+      "e0023: Rust source could not be tokenized (possibly truncated); its documentation examples were not inventoried."
+    ]
+  }
+}
