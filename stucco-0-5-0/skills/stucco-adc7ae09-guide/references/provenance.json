@@ -1,0 +1,1338 @@
+{
+  "bundle_sha256": "7c7ba63b47f224b4148776780a366d329a6c1c7cb451497165d3953cd66d80c9",
+  "example_coverage": [
+    {
+      "disposition": "skipped",
+      "example_id": "doc-403dabee035e1211-1",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-1a62a38631e53597-2",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-1a62a38631e53597-3",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-1a62a38631e53597-4",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-1a62a38631e53597-5",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-009efc5a9c870a09-6",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-009efc5a9c870a09-7",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-009efc5a9c870a09-8",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-2a0f140a86a74152-9",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-37e1ff775b0df319-10",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-37e1ff775b0df319-11",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-555b16af49c41482-12",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-555b16af49c41482-13",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-555b16af49c41482-14",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-555b16af49c41482-15",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-555b16af49c41482-16",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-555b16af49c41482-17",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-555b16af49c41482-18",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6f445d44af831022-19",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6f445d44af831022-20",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6f445d44af831022-21",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6f445d44af831022-22",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6f445d44af831022-23",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6f445d44af831022-24",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6f445d44af831022-25",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6f445d44af831022-26",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6f445d44af831022-27",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-8803a58760042a28-28",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-8803a58760042a28-29",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "supporting",
+      "example_id": "doc-f7159b1d55fecb00-30",
+      "reason": "Use the documented Field and Input construction with an explicit control ID.",
+      "recipe_ids": [
+        "static-canvas-shell"
+      ]
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-f7159b1d55fecb00-31",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-f7159b1d55fecb00-32",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-f7159b1d55fecb00-33",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-f7159b1d55fecb00-34",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-f7159b1d55fecb00-35",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-f7159b1d55fecb00-36",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-f7159b1d55fecb00-37",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6744007019ea6219-38",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-6744007019ea6219-39",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-24d8c0123ce15c1e-40",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-24d8c0123ce15c1e-41",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-24d8c0123ce15c1e-42",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-24d8c0123ce15c1e-43",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-24d8c0123ce15c1e-44",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-24d8c0123ce15c1e-45",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "adapted",
+      "example_id": "doc-24d8c0123ce15c1e-46",
+      "reason": "Combine static asset export and explicit theme selection into a complete canvas shell.",
+      "recipe_ids": [
+        "static-canvas-shell"
+      ]
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-24d8c0123ce15c1e-47",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-24d8c0123ce15c1e-48",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-24d8c0123ce15c1e-49",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "adapted",
+      "example_id": "doc-24d8c0123ce15c1e-50",
+      "reason": "Combine static asset export and explicit theme selection into a complete canvas shell.",
+      "recipe_ids": [
+        "static-canvas-shell"
+      ]
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-64fac973ea2321ad-51",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-64fac973ea2321ad-52",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-64fac973ea2321ad-53",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-64fac973ea2321ad-54",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-64fac973ea2321ad-55",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-64fac973ea2321ad-56",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-64fac973ea2321ad-57",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-64fac973ea2321ad-58",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-480453e72651f178-59",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    },
+    {
+      "disposition": "skipped",
+      "example_id": "doc-480453e72651f178-60",
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage.",
+      "recipe_ids": []
+    }
+  ],
+  "example_inventory": {
+    "examples": [
+      {
+        "citation": {
+          "end_line": 19,
+          "source_id": "e0003",
+          "start_line": 7
+        },
+        "code": "use stucco::prelude::*;\n\nlet bundle = Bundle::new(Preset::Slate);\nlet html = Page::new(&bundle, \"Hello\")\n    .main(Container::new().child(\n        Stack::new()\n            .child(Heading::new(1, \"Hello\"))\n            .child(Text::new(\"Rendered in Rust.\")),\n    ))\n    .render();\nassert!(html.contains(\"Rendered in Rust.\"));\n",
+        "id": "doc-403dabee035e1211-1",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 53,
+          "source_id": "e0004",
+          "start_line": 38
+        },
+        "code": "use stucco::prelude::*;\n\nlet bundle = Bundle::new(Preset::Slate);\nlet html = Page::new(&bundle, \"Hello, stucco\")\n    .main(\n        Container::new().child(\n            Stack::new()\n                .child(Heading::new(1, \"Hello, stucco\"))\n                .child(Text::new(\"A page rendered entirely in Rust.\"))\n                .child(Button::new(\"Continue\")),\n        ),\n    )\n    .render();\nassert!(html.contains(\"Hello, stucco\"));\n",
+        "id": "doc-1a62a38631e53597-2",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 86,
+          "source_id": "e0004",
+          "start_line": 72
+        },
+        "code": "use axum::{Router, routing::get};\nuse stucco::prelude::*;\n\nasync fn index(page: PageCx) -> Document {\n    page.title(\"Hello\").main(Heading::new(1, \"Hello\"))\n}\n\n#[tokio::main]\nasync fn main() -> std::io::Result<()> {\n    let app = Router::new().route(\"/\", get(index)).stucco(Preset::Slate);\n    let listener = tokio::net::TcpListener::bind(\"127.0.0.1:3000\").await?;\n    axum::serve(listener, app).await\n}\n",
+        "id": "doc-1a62a38631e53597-3",
+        "info": "rust,no_run"
+      },
+      {
+        "citation": {
+          "end_line": 122,
+          "source_id": "e0004",
+          "start_line": 103
+        },
+        "code": "use stucco::Bundle;\nuse stucco::theme::{Elevation, Fonts, Preset, Radius, Seeded, TableStyle, Theme};\n\n// Colours, fonts, type scale, spacing, radius, density and a style\n// personality, all from one number. The same seed always gives the same theme,\n// and seeded themes always pass the contrast checks.\nlet theme = Theme::seeded(42);\n// Or hash a name, then adjust any option.\nlet theme = Theme::seeded_str(\"acme\").elevation(Elevation::Raised);\n// Every option implements `Seeded`, so you can seed options one at a time:\n// here, Slate's colours with seed 14's fonts, corners and tables.\nlet theme = Theme::preset(Preset::Slate)\n    .fonts(Fonts::seeded(14))\n    .radius(Radius::seeded(14))\n    .table_style(TableStyle::seeded(14));\n// A bundle builds the theme; it panics with the contrast report if a\n// hand-tuned theme fails. `Bundle::try_new` returns the report instead.\nlet bundle = Bundle::new(theme);\n",
+        "id": "doc-1a62a38631e53597-4",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 173,
+          "source_id": "e0004",
+          "start_line": 160
+        },
+        "code": "use stucco::collections::{Col, DataTable};\nuse stucco::{CollectionPage, to_html};\n\nlet page = CollectionPage {\n    rows: vec![\"Ada\", \"Grace\"],\n    next: None,\n    prev: None,\n    total: None,\n};\nlet table = DataTable::from_page(&page, \"Customers\")\n    .column(Col::text(\"name\", \"Customer\", |row: &&str| row.to_string()));\nassert!(to_html(&table).contains(\"Ada\"));\n",
+        "id": "doc-1a62a38631e53597-5",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 13,
+          "source_id": "e0006",
+          "start_line": 5
+        },
+        "code": "use stucco::prelude::*;\n\nlet bundle = Bundle::new(Preset::Slate);\nlet html = Page::new(&bundle, \"Hello\")\n    .body(el::main().child(el::h1().text(\"Hello\")))\n    .render();\nassert!(html.contains(\"<h1>Hello</h1>\"));\n",
+        "id": "doc-009efc5a9c870a09-6",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 78,
+          "source_id": "e0006",
+          "start_line": 65
+        },
+        "code": "use stucco::prelude::*;\n\nlet bundle = Bundle::new(Preset::Slate);\nlet html = Page::new(&bundle, \"Hello\")\n    .main(\n        Stack::new()\n            .space(Space::S4)\n            .child(Heading::new(1, \"Hello\"))\n            .child(Button::new(\"Continue\").variant(Variant::Primary)),\n    )\n    .render();\nassert!(html.contains(r#\"<main id=\"main\">\"#));\n",
+        "id": "doc-009efc5a9c870a09-7",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 98,
+          "source_id": "e0006",
+          "start_line": 82
+        },
+        "code": "use stucco::prelude::*;\n\nlet details = (\n    Breadcrumbs::new().link(\"Orders\", \"/orders\").current(\"Order 42\"),\n    Steps::new(\"Checkout\").step(\"Cart\", \"/cart\").step(\"Pay\", \"/pay\").current(1),\n    Avatar::new(\"Ada Lovelace\").decorative(),\n    Badge::new(\"Paid\").tone(Tone::Success),\n    DescriptionList::new().item(\"Total\", \"$12.50\"),\n    Stat::new(\"Orders\", \"128\").change(\"12%\", Trend::Up),\n    Progress::new(\"Import\", 42.0, 100.0),\n    Meter::new(\"Storage\", 7.2, 0.0, 10.0),\n    Callout::new(Tone::Warning).title(\"Payment overdue\"),\n    Accordion::new().item(\"Shipping\", Disclosure::new(\"Courier\").child(\"Two days\")),\n);\nassert!(stucco::to_html(&details).contains(\"st-callout\"));\n",
+        "id": "doc-009efc5a9c870a09-8",
+        "info": ""
+      },
+      {
+        "citation": {
+          "end_line": 29,
+          "source_id": "e0022",
+          "start_line": 13
+        },
+        "code": "use stucco::theme::{ButtonDepth, Finish, Fonts, HeaderStyle, HeadingFont,\n    HeadingWeight, Motion, NavStyle, PanelStyle, Preset, Radius, ShellLayout, Theme};\n\nlet theme = Theme::preset(Preset::Sand)\n    .fonts(Fonts::system())\n    .heading_font(HeadingFont::Serif)\n    .heading_weight(HeadingWeight::Regular)\n    .finish(Finish::Sand)\n    .header_style(HeaderStyle::Plain)\n    .shell_layout(ShellLayout::Topbar)\n    .nav_style(NavStyle::Bar)\n    .panel_style(PanelStyle::Ruled)\n    .radius(Radius::Soft)\n    .button_depth(ButtonDepth::Raised)\n    .motion(Motion::Gentle);\n",
+        "id": "doc-2a0f140a86a74152-9",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 63,
+          "source_id": "e0024",
+          "start_line": 55
+        },
+        "code": "use stucco::Bundle;\nuse stucco::theme::{Radius, Theme};\n\n// seed=42&radius=round\nlet theme = Theme::seeded(42)\n    .radius(Radius::Round);\nlet bundle = Bundle::new(theme.build().expect(\"the theme passes its contrast checks\"));\n",
+        "id": "doc-37e1ff775b0df319-10",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 82,
+          "source_id": "e0024",
+          "start_line": 75
+        },
+        "code": "use stucco::theme::spec::ThemeSpec;\n\nlet spec: ThemeSpec = std::env::var(\"THEME\")\n    .unwrap_or_default()\n    .parse()?; // unknown keys or values are errors\nlet bundle = stucco::Bundle::new(spec.theme().build()?);\n",
+        "id": "doc-37e1ff775b0df319-11",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 35,
+          "source_id": "e0026",
+          "start_line": 15
+        },
+        "code": "use stucco::collections::{Col, DataTable};\nuse stucco::CollectionPage;\n\nlet page = CollectionPage { rows: orders, next: None, prev: None, total: None };\nlet table = DataTable::from_page(&page, \"Orders\")\n    .column(Col::number(\"id\", \"ID\", |o: &Order| o.id as f64).sortable())\n    .column(Col::text(\"customer\", \"Customer\", |o: &Order| o.customer.clone()).sortable().searchable())\n    .column(Col::enumeration(\n        \"status\",\n        \"Status\",\n        vec![(\"pending\".into(), \"Pending\".into()), (\"paid\".into(), \"Paid\".into())],\n        |o: &Order| o.status.clone(),\n    ).filter())\n    .column(\n        Col::number(\"total\", \"Total\", |o: &Order| o.total_cents as f64 / 100.0)\n            .display(|o: &Order| format!(\"${}.{:02}\", o.total_cents / 100, o.total_cents % 100))\n            .filter(),\n    )\n    .column(Col::date(\"created\", \"Created\", |o: &Order| o.created.clone()).filter());\n",
+        "id": "doc-555b16af49c41482-12",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 67,
+          "source_id": "e0026",
+          "start_line": 45
+        },
+        "code": "use stucco::prelude::*;\n\n#[derive(Columns)]\nstruct Order {\n    #[col(label = \"ID\", sortable)]\n    id: u64,\n    #[col(sortable, searchable)]\n    customer: String,\n    #[col(enumeration(\"pending\", \"paid\", \"shipped\"), filter)]\n    status: String,\n    #[col(key = \"total\", label = \"Total\", value = dollars, display = money, filter)]\n    total_cents: u64,\n    #[col(date, filter)]\n    created: String,\n}\n\nfn dollars(o: &Order) -> f64 { o.total_cents as f64 / 100.0 }\nfn money(o: &Order) -> String { format!(\"${}.{:02}\", o.total_cents / 100, o.total_cents % 100) }\n\nlet table = DataTable::from_collection(&orders, \"Orders\").columns(Order::columns());\nlet specs = Order::column_specs(); // for CollectionQuery::parse or CollectionSource::load\n",
+        "id": "doc-555b16af49c41482-13",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 104,
+          "source_id": "e0026",
+          "start_line": 94
+        },
+        "code": "use stucco::Capabilities;\n\nlet caps = Capabilities {\n    sortable: vec![\"id\".into(), \"customer\".into()],\n    filterable: vec![\"status\".into(), \"total\".into(), \"created\".into()],\n    searchable: true,\n    total_count: false, // cursor pagination: no \"Showing 1–25 of 67\"\n    offset: false,      // no numbered pages\n};\n",
+        "id": "doc-555b16af49c41482-14",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 134,
+          "source_id": "e0026",
+          "start_line": 118
+        },
+        "code": "use stucco_tower::{CollectionSource, RequestContext, SourceError};\n\nimpl CollectionSource for OrdersSource {\n    type Row = Order;\n\n    fn capabilities(&self) -> Capabilities { /* … */ }\n\n    async fn query(\n        &self,\n        query: &CollectionQuery,\n        cx: &RequestContext,\n    ) -> Result<CollectionPage<Order>, SourceError> {\n        // run the query against your database\n    }\n}\n",
+        "id": "doc-555b16af49c41482-15",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 160,
+          "source_id": "e0026",
+          "start_line": 140
+        },
+        "code": "use stucco::prelude::*;\nuse stucco::server::RequestContext;\n\nasync fn orders(\n    State(source): State<OrdersSource>,\n    RawQuery(raw): RawQuery,\n    context: RequestContext,\n    page: PageCx,\n) -> Document {\n    let raw = raw.unwrap_or_default();\n    match source.load(&raw, &columns(), &context).await {\n        Ok(orders) => page.title(\"Orders\").main(\n            DataTable::from_collection(&orders, \"Orders\")\n                .action(\"/orders\")\n                .column(Col::text(\"customer\", \"Customer\", |o: &Order| o.customer.clone()).searchable()),\n        ),\n        Err(_) => page.title(\"Orders unavailable\").status(StatusCode::INTERNAL_SERVER_ERROR),\n    }\n}\n",
+        "id": "doc-555b16af49c41482-16",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 190,
+          "source_id": "e0026",
+          "start_line": 185
+        },
+        "code": "let table = DataTable::from_collection(&orders, \"Orders\")\n    .responsive()\n    .action(\"/orders\")\n    .columns(Order::columns());\n",
+        "id": "doc-555b16af49c41482-17",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 219,
+          "source_id": "e0026",
+          "start_line": 203
+        },
+        "code": "use stucco::{CollectionQuery, ReturnContext};\nuse stucco::forms::HiddenInput;\n\nlet query = CollectionQuery::default().with_search(\"Ada\");\nlet context = ReturnContext::collection(\"/orders\", &query).unwrap();\nlet detail = context.carry(\"/orders/42?tab=history#details\").unwrap();\nlet hidden = HiddenInput::new(ReturnContext::FIELD, context.as_str());\nlet back_link = context.href();\n\n// On each subsequent request, validate the decoded query/form value again.\nlet incoming = \"/orders?q=Ada&page=2&sort=customer&dir=desc\";\nlet context = ReturnContext::parse(incoming,\n    &[\"/orders\", \"/review\"],\n    &[\"q\", \"page\", \"sort\", \"dir\", \"per\", \"after\", \"before\", \"f.status\"]);\nlet destination = context.as_ref().map_or(\"/orders\", ReturnContext::as_str);\n",
+        "id": "doc-555b16af49c41482-18",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 45,
+          "source_id": "e0028",
+          "start_line": 29
+        },
+        "code": "use stucco::layout::{Cluster, Stack};\nuse stucco::actions::Button;\nuse stucco::typography::{Heading, Text};\nuse stucco::{Space, Variant};\n\nlet card = Stack::new()\n    .space(Space::S4)\n    .child(Heading::new(2, \"Invite your team\"))\n    .child(Text::new(\"Members can view and edit every project.\"))\n    .child(\n        Cluster::new()\n            .space(Space::S2)\n            .child(Button::new(\"Send invites\").variant(Variant::Primary))\n            .child(Button::new(\"Not now\")),\n    );\n",
+        "id": "doc-6f445d44af831022-19",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 82,
+          "source_id": "e0028",
+          "start_line": 64
+        },
+        "code": "use stucco::{Cx, Render, el};\n\nstruct Disclosure<'a> {\n    summary: &'a str,\n    body: &'a str,\n}\n\nimpl Render for Disclosure<'_> {\n    fn render(&self, cx: &mut Cx) {\n        let id = cx.id(\"disclosure\");\n        el::details()\n            .id(id)\n            .child(el::summary().text(self.summary))\n            .child(el::p().text(self.body))\n            .render(cx);\n    }\n}\n",
+        "id": "doc-6f445d44af831022-20",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 102,
+          "source_id": "e0028",
+          "start_line": 93
+        },
+        "code": "use stucco::app::{AppShell, PageHeader};\nuse stucco::navigation::NavLink;\n\nlet shell = AppShell::new()\n    .header(PageHeader::new(\"Orders\"))\n    .link(NavLink::new(\"Orders\", \"/orders\").current(true))\n    .link(NavLink::new(\"Customers\", \"/customers\"))\n    .main(/* … */);\n",
+        "id": "doc-6f445d44af831022-21",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 126,
+          "source_id": "e0028",
+          "start_line": 110
+        },
+        "code": "use stucco::prelude::*;\n\nlet status = Badge::new(\"Paid\").tone(Tone::Success);\nlet customer = Cluster::of((\n    Avatar::new(\"Ada Lovelace\").image(\"/people/ada.jpg\").decorative(),\n    Text::new(\"Ada Lovelace\"),\n));\nlet details = DescriptionList::new()\n    .item(\"Customer\", customer)\n    .item(\"Status\", status)\n    .item(\"Total\", \"$128.00\");\nlet orders = Stat::new(\"Orders\", \"128\")\n    .change(\"12%\", Trend::Up)\n    .change_tone(Tone::Success)\n    .context(\"vs last week\");\n",
+        "id": "doc-6f445d44af831022-22",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 157,
+          "source_id": "e0028",
+          "start_line": 144
+        },
+        "code": "use stucco::prelude::*;\n\nlet header = PageHeader::new(\"Order 1042\").breadcrumbs(\n    Breadcrumbs::new()\n        .link(\"Orders\", \"/orders\")\n        .current(\"Order 1042\"),\n);\nlet checkout = Steps::new(\"Checkout\")\n    .step(\"Cart\", \"/checkout/cart\")\n    .step(\"Delivery\", \"/checkout/delivery\")\n    .step_disabled(\"Payment\")\n    .current(1);\n",
+        "id": "doc-6f445d44af831022-23",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 177,
+          "source_id": "e0028",
+          "start_line": 167
+        },
+        "code": "use stucco::feedback::{Meter, Progress};\n\nlet import = Progress::new(\"Importing orders\", 42.0, 100.0).show_value();\nlet waiting = Progress::indeterminate(\"Preparing import\");\nlet storage = Meter::new(\"Storage used\", 7.2, 0.0, 10.0)\n    .low(2.0)\n    .high(8.0)\n    .optimum(0.0)\n    .value_text(\"7.2 of 10 GB\");\n",
+        "id": "doc-6f445d44af831022-24",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 203,
+          "source_id": "e0028",
+          "start_line": 187
+        },
+        "code": "use stucco::prelude::*;\n\nlet shipping = Disclosure::new(\"Shipping details\")\n    .heading(2)\n    .open(true)\n    .child(Text::new(\"Arrives by Friday.\"));\nlet help = Accordion::new()\n    .heading(2)\n    .item_open(\"Shipping\", Text::new(\"Tracked delivery is included.\"))\n    .item(\"Returns\", Text::new(\"Return within 30 days.\"))\n    .exclusive();\nlet note = Callout::new(Tone::Warning)\n    .title(\"Payment overdue\")\n    .child(Text::new(\"Pay the invoice before we can ship your order.\"))\n    .actions(Link::new(\"View invoice\", \"/orders/1042/invoice\"));\n",
+        "id": "doc-6f445d44af831022-25",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 227,
+          "source_id": "e0028",
+          "start_line": 213
+        },
+        "code": "use stucco::prelude::*;\n\nlet confirm = Dialog::new(\"delete-order\", \"Delete order 1042?\")\n    .child(Text::new(\"The order and its history are removed.\"))\n    .actions(Dialog::close_button(\"delete-order\", \"Cancel\"))\n    .actions(\n        Form::post(\"/orders/1042/delete\")\n            .child(Button::new(\"Delete order\").submit().variant(Variant::Danger)),\n    );\nlet row_actions = Menu::new(\"Actions\")\n    .link(\"Edit\", \"/orders/1042/edit\")\n    .separator()\n    .item(confirm.opener(\"Delete\").variant(Variant::Ghost));\n",
+        "id": "doc-6f445d44af831022-26",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 261,
+          "source_id": "e0028",
+          "start_line": 253
+        },
+        "code": "use stucco::feedback::{ReadinessPanel, Requirement};\n\nlet panel = ReadinessPanel::new(\"Ready to publish\")\n    .requirement(Requirement::ready(\"Customer details\"))\n    .requirement(Requirement::blocked(\"Approval\", \"A review is still needed.\")\n        .guidance(\"An editor can approve this record.\")\n        .remedy(\"Open review\", \"/orders/42/review\"));\n",
+        "id": "doc-6f445d44af831022-27",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 22,
+          "source_id": "e0030",
+          "start_line": 13
+        },
+        "code": "use stucco::prelude::*;\n\nasync fn index(page: PageCx, query: Query<Params>) -> Response {\n    let name = query.name.as_deref();\n    page.respond()\n        .fragment(\"greeting\", || greeting(name))\n        .page(|| page.title(\"Hello\").main(content(name)))\n}\n",
+        "id": "doc-8803a58760042a28-28",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 42,
+          "source_id": "e0030",
+          "start_line": 32
+        },
+        "code": "use stucco::{Asset, Behavior, register_asset};\n\npub static TABS: Asset = Asset {\n    name: \"tabs\",\n    css: Some(include_str!(\"tabs.css\")),\n    behavior: Some(Behavior::Js(include_str!(\"tabs.js\"))),\n    deps: &[],\n};\nregister_asset!(TABS);\n",
+        "id": "doc-8803a58760042a28-29",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 26,
+          "source_id": "e0032",
+          "start_line": 9
+        },
+        "code": "use stucco::forms::{Field, Form, Input, Select};\nuse stucco::actions::Button;\nuse stucco::Variant;\n\nlet form = Form::post(\"/orders\")\n    .csrf(&token)\n    .child(Field::new(\"Customer\", Input::text(\"customer\").id(\"order-customer\")).required())\n    .child(\n        Field::new(\"Quantity\", Input::number(\"quantity\").min(\"1\"))\n            .hint(\"Between 1 and 99.\"),\n    )\n    .child(Field::new(\n        \"Status\",\n        Select::new(\"status\").options([(\"pending\", \"Pending\"), (\"paid\", \"Paid\")]),\n    ))\n    .child(Button::new(\"Create order\").submit().variant(Variant::Primary));\n",
+        "id": "doc-f7159b1d55fecb00-30",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 40,
+          "source_id": "e0032",
+          "start_line": 34
+        },
+        "code": "use stucco_tower::{SeeOther, Submission};\n\nasync fn create(Submission(form): Submission) -> axum::response::Response {\n    // validate, then redirect or re-render (below)\n}\n",
+        "id": "doc-f7159b1d55fecb00-31",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 64,
+          "source_id": "e0032",
+          "start_line": 48
+        },
+        "code": "use stucco::Validator;\n\nstruct Order { customer: String, quantity: u32 }\n\nlet mut v = Validator::new(form);\nlet customer = v.text(\"customer\")\n    .required(\"Enter a customer name\")\n    .max_chars(80, \"Use 80 characters or fewer\")\n    .get();\nlet quantity = v.text(\"quantity\")\n    .required(\"Enter a quantity\")\n    .parse::<u32>(\"Enter a whole number\")\n    .check(|q| (1..=99).contains(q), \"Enter a quantity from 1 to 99\")\n    .get();\nlet result = v.finish(|| Some(Order { customer: customer?, quantity: quantity? }));\n",
+        "id": "doc-f7159b1d55fecb00-32",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 95,
+          "source_id": "e0032",
+          "start_line": 74
+        },
+        "code": "use axum::response::IntoResponse;\nuse stucco::prelude::*;\nuse stucco::server::SeeOther;\n\n// In a handler that takes `page: PageCx`.\nmatch result {\n    Ok(order) => {\n        save(order).await;\n        SeeOther::new(\"/orders\").into_response()\n    }\n    Err(state) => {\n        let form = Form::post(\"/orders\")\n            .child(ErrorSummary::new(&state).field(\"customer\", \"order-customer\"))\n            .child(Field::new(\"Customer\", Input::text(\"customer\").id(\"order-customer\")).bind(&state));\n        page.title(\"New order\")\n            .main(form)\n            .status(StatusCode::UNPROCESSABLE_ENTITY)\n            .into_response()\n    }\n}\n",
+        "id": "doc-f7159b1d55fecb00-33",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 132,
+          "source_id": "e0032",
+          "start_line": 108
+        },
+        "code": "use axum::{Router, routing::get};\nuse stucco::prelude::*;\nuse stucco::server::{CsrfLayer, CsrfToken, FlashLayer, RequestContext, SecretKey};\n\nasync fn new_order(page: PageCx, cx: RequestContext) -> Document {\n    let token = cx.get::<CsrfToken>().expect(\"CsrfLayer installed\");\n    page.title(\"New order\").main(\n        Form::post(\"/orders\")\n            .csrf(token.as_str())\n            .child(Field::new(\"Customer\", Input::text(\"customer\")))\n            .child(Button::new(\"Create order\").submit()),\n    )\n}\n\n// Run once at startup; keep the same key across restarts and replicas.\nlet key = SecretKey::from_env()?;\nlet app = Router::new()\n    .route(\"/orders/new\", get(new_order))\n    // Add the application's POST routes here, before installing the layers.\n    .layer(FlashLayer::new(key.clone()))\n    .layer(CsrfLayer::new(key, \"https://example.com\")?)\n    // Call stucco last so static assets do not issue or consume these cookies.\n    .stucco(Preset::Slate);\n",
+        "id": "doc-f7159b1d55fecb00-34",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 170,
+          "source_id": "e0032",
+          "start_line": 165
+        },
+        "code": "use stucco::server::{Flash, FlashLevel, SeeOther};\n\nlet response = SeeOther::new(\"/orders\")\n    .flash(Flash::new(FlashLevel::Success, \"Order created.\"));\n",
+        "id": "doc-f7159b1d55fecb00-35",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 183,
+          "source_id": "e0032",
+          "start_line": 174
+        },
+        "code": "use stucco::prelude::*;\nuse stucco::server::RequestContext;\n\nasync fn orders(page: PageCx, cx: RequestContext) -> Document {\n    page.title(\"Orders\").main(\n        FlashMessages::new(cx.get::<Flash>().cloned()),\n    )\n}\n",
+        "id": "doc-f7159b1d55fecb00-36",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 221,
+          "source_id": "e0032",
+          "start_line": 208
+        },
+        "code": "use stucco::{FormState, ReturnContext};\nuse stucco::forms::{ConflictNotice, Field, Form, HiddenInput, Input};\n\nlet submitted = FormState::from_urlencoded(b\"customer=My+edit&revision=v1\");\n// The storage transaction rejected expected revision v1 and observed v2.\nlet state = submitted.with_conflict(\"v1\", \"v2\");\nlet context = ReturnContext::parse(\"/orders?page=2\", &[\"/orders\"], &[\"page\"]).unwrap();\nlet form = Form::post(\"/orders/42/edit\")\n    .child(ConflictNotice::new(&state, context.carry(\"/orders/42/edit\").unwrap()))\n    .child(HiddenInput::new(\"revision\", state.conflict().unwrap().submitted()))\n    .child(HiddenInput::new(ReturnContext::FIELD, context.as_str()))\n    .child(Field::new(\"Customer\", Input::text(\"customer\")).bind(&state));\n",
+        "id": "doc-f7159b1d55fecb00-37",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 52,
+          "source_id": "e0034",
+          "start_line": 38
+        },
+        "code": "use stucco::prelude::*;\n\nlet bundle = Bundle::new(Preset::Slate);\nlet html = Page::new(&bundle, \"Hello, stucco\")\n    .main(\n        Container::new().child(\n            Stack::new()\n                .child(Heading::new(1, \"Hello, stucco\"))\n                .child(Text::new(\"A page rendered entirely in Rust.\"))\n                .child(Button::new(\"Continue\")),\n        ),\n    )\n    .render();\n",
+        "id": "doc-6744007019ea6219-38",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 76,
+          "source_id": "e0034",
+          "start_line": 62
+        },
+        "code": "use axum::{Router, routing::get};\nuse stucco::prelude::*;\n\nasync fn index(page: PageCx) -> Document {\n    page.title(\"Hello\").main(Heading::new(1, \"Hello\"))\n}\n\n#[tokio::main]\nasync fn main() -> std::io::Result<()> {\n    let app = Router::new().route(\"/\", get(index)).stucco(Preset::Slate);\n    let listener = tokio::net::TcpListener::bind(\"127.0.0.1:3000\").await?;\n    axum::serve(listener, app).await\n}\n",
+        "id": "doc-6744007019ea6219-39",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 34,
+          "source_id": "e0036",
+          "start_line": 21
+        },
+        "code": "use stucco::prelude::*;\n\nfn shell<'a>(current: &str) -> AppShell<'a> {\n    AppShell::new()\n        .header(PageHeader::new(\"Shop\"))\n        .link(NavLink::new(\"Orders\", \"/orders\").current(current == \"/orders\"))\n        .link(NavLink::new(\"Customers\", \"/customers\").current(current == \"/customers\"))\n}\n\nasync fn customers(page: PageCx) -> Document {\n    page.title(\"Customers\").app(shell(\"/customers\").main(Heading::new(2, \"Customers\")))\n}\n",
+        "id": "doc-24d8c0123ce15c1e-40",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 67,
+          "source_id": "e0036",
+          "start_line": 40
+        },
+        "code": "use stucco::prelude::*;\n\nasync fn order_detail(page: PageCx) -> Document {\n    let header = PageHeader::new(\"Order 1042\").breadcrumbs(\n        Breadcrumbs::new()\n            .link(\"Orders\", \"/orders\")\n            .current(\"Order 1042\"),\n    );\n    let details = DescriptionList::new()\n        .item(\"Customer\", \"Ada Lovelace\")\n        .item(\"Status\", Badge::new(\"Paid\").tone(Tone::Success))\n        .item(\"Total\", \"$128.00\")\n        .item(\"Placed\", \"21 October 2026\");\n    let shipping = Callout::new(Tone::Info)\n        .title(\"Preparing for dispatch\")\n        .child(Text::new(\"Your order will ship within two working days.\"))\n        .actions(Link::new(\"Delivery information\", \"/delivery\"));\n\n    page.title(\"Order 1042\").main(\n        Stack::new()\n            .space(Space::S6)\n            .child(header)\n            .child(details)\n            .child(shipping),\n    )\n}\n",
+        "id": "doc-24d8c0123ce15c1e-41",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 102,
+          "source_id": "e0036",
+          "start_line": 75
+        },
+        "code": "use axum::response::{IntoResponse, Response};\nuse axum::http::StatusCode;\nuse stucco::prelude::*;\nuse stucco::FormState;\nuse stucco::Validator;\nuse stucco::server::{SeeOther, Submission};\n\nfn order_form(state: &FormState) -> impl Render + '_ {\n    Form::post(\"/orders\")\n        .child(ErrorSummary::new(state).field(\"customer\", \"order-customer\"))\n        .child(Field::new(\"Customer\", Input::text(\"customer\").id(\"order-customer\")).bind(state))\n        .child(Button::new(\"Create order\").submit().variant(Variant::Primary))\n}\n\nasync fn create(page: PageCx, Submission(form): Submission) -> Response {\n    let mut v = Validator::new(form);\n    let customer = v.text(\"customer\").required(\"Enter a customer name\").get();\n    match v.finish(|| customer) {\n        Ok(_customer) => SeeOther::new(\"/orders\").into_response(),\n        Err(state) => page\n            .title(\"New order\")\n            .main(order_form(&state))\n            .status(StatusCode::UNPROCESSABLE_ENTITY)\n            .into_response(),\n    }\n}\n",
+        "id": "doc-24d8c0123ce15c1e-42",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 139,
+          "source_id": "e0036",
+          "start_line": 110
+        },
+        "code": "use axum::extract::{RawQuery, State};\nuse stucco::prelude::*;\nuse stucco::server::RequestContext;\n\n#[derive(Columns)]\nstruct Customer {\n    #[col(sortable, searchable)]\n    name: String,\n    #[col(enumeration(\"active\", \"paused\"), filter)]\n    status: String,\n}\n\nasync fn customers(\n    State(source): State<CustomerSource>, // your `CollectionSource`\n    RawQuery(raw): RawQuery,\n    context: RequestContext,\n    page: PageCx,\n) -> Document {\n    let raw = raw.unwrap_or_default();\n    match source.load(&raw, &Customer::column_specs(), &context).await {\n        Ok(customers) => page.title(\"Customers\").main(\n            DataTable::from_collection(&customers, \"Customers\")\n                .action(\"/customers\")\n                .columns(Customer::columns()),\n        ),\n        Err(_) => page.title(\"Customers unavailable\").status(StatusCode::INTERNAL_SERVER_ERROR),\n    }\n}\n",
+        "id": "doc-24d8c0123ce15c1e-43",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 160,
+          "source_id": "e0036",
+          "start_line": 147
+        },
+        "code": "use stucco::prelude::*;\n\nfn cart(items: usize) -> impl Render {\n    el::div().id(\"cart\").child(Text::new(format!(\"{items} items\")))\n}\n\nasync fn shop(page: PageCx) -> axum::response::Response {\n    let items = 3;\n    page.respond()\n        .fragment(\"cart\", || cart(items))\n        .page(|| page.title(\"Shop\").main(Stack::of((Heading::new(1, \"Shop\"), cart(items)))))\n}\n",
+        "id": "doc-24d8c0123ce15c1e-44",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 177,
+          "source_id": "e0036",
+          "start_line": 168
+        },
+        "code": "use stucco::prelude::*;\nuse stucco::layout::ThemeScope;\n\nlet bundle = Bundle::new(Preset::Slate).with_theme(\"promo\", Theme::seeded_str(\"summer sale\"));\nlet banner = ThemeScope::new()\n    .named(\"promo\")\n    .child(Card::new().child(Heading::new(2, \"Summer sale\")));\nlet app = axum::Router::new().stucco(bundle);\n",
+        "id": "doc-24d8c0123ce15c1e-45",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 195,
+          "source_id": "e0036",
+          "start_line": 183
+        },
+        "code": "use std::fs;\nuse stucco::prelude::*;\n\nlet bundle = Bundle::new(Preset::Slate);\nfs::create_dir_all(\"public/_stucco\")?;\nfor path in bundle.paths() {\n    let file = bundle.get(&path).expect(\"listed paths exist\");\n    fs::write(format!(\"public{path}\"), &*file.bytes)?;\n}\nlet html = Page::new(&bundle, \"Hello\").main(Heading::new(1, \"Hello\")).render();\nfs::write(\"public/index.html\", html)?;\n",
+        "id": "doc-24d8c0123ce15c1e-46",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 208,
+          "source_id": "e0036",
+          "start_line": 201
+        },
+        "code": "use std::time::Duration;\nuse stucco::prelude::*;\nuse stucco::server::LayerConfig;\n\nlet config = LayerConfig { body_limit: 10 * 1024 * 1024, timeout: Duration::from_secs(60) };\nlet app = axum::Router::new().stucco_with(Preset::Slate, &config);\n",
+        "id": "doc-24d8c0123ce15c1e-47",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 308,
+          "source_id": "e0036",
+          "start_line": 218
+        },
+        "code": "use axum::extract::rejection::PathRejection;\nuse axum::extract::{Path, State};\nuse axum::http::StatusCode;\nuse axum::response::{IntoResponse, Response};\nuse stucco::forms::HiddenInput;\nuse stucco::prelude::*;\nuse stucco::server::{CsrfToken, SeeOther, Submission};\nuse stucco::{FormState, Validator};\nuse stucco_redb::{AsyncTable, Revision};\n\n// Bad ids (`/customers/abc`) get the same page as missing ones, rather than\n// axum's plain-text 400.\nfn not_found(page: PageCx) -> Response {\n    page.title(\"Not found\")\n        .main(Heading::new(1, \"Customer not found\"))\n        .status(StatusCode::NOT_FOUND)\n        .into_response()\n}\n\nfn edit_page(page: PageCx, id: u64, state: &FormState, revision: &str) -> Response {\n    let token = page.context().get::<CsrfToken>().map(|t| t.as_str().to_owned());\n    let status = if state.conflict().is_some() { StatusCode::CONFLICT }\n        else if state.has_errors() { StatusCode::UNPROCESSABLE_ENTITY }\n        else { StatusCode::OK };\n    page.title(\"Edit customer\")\n        .main(\n            Form::post(format!(\"/customers/{id}\"))\n                .csrf(token.as_deref().unwrap_or_default())\n                .child(HiddenInput::new(\"revision\", revision))\n                .child(ErrorSummary::new(state).field(\"name\", \"customer-name\"))\n                .child(ConflictNotice::new(state, format!(\"/customers/{id}/edit\")).focus(false))\n                .child(Field::new(\"Name\", Input::text(\"name\").id(\"customer-name\")).bind(state))\n                .child(Button::new(\"Save\").submit().variant(Variant::Primary)),\n        )\n        .status(status)\n        .into_response()\n}\n\nasync fn edit(\n    State(db): State<AsyncTable<u64, String>>,\n    page: PageCx,\n    path: Result<Path<u64>, PathRejection>,\n) -> Response {\n    let Ok(Path(id)) = path else { return not_found(page) };\n    match db.get_with_revision(id).await {\n        Ok(Some((name, revision))) => {\n            let state = FormState::new().with_value(\"name\", name);\n            edit_page(page, id, &state, &revision.to_string())\n        }\n        Ok(None) => not_found(page),\n        Err(_) => StatusCode::INTERNAL_SERVER_ERROR.into_response(),\n    }\n}\n\nasync fn update(\n    State(db): State<AsyncTable<u64, String>>,\n    page: PageCx,\n    path: Result<Path<u64>, PathRejection>,\n    Submission(form): Submission,\n) -> Response {\n    let Ok(Path(id)) = path else { return not_found(page) };\n    let submitted = form.value(\"revision\").unwrap_or_default().to_owned();\n    let mut v = Validator::new(form.clone());\n    let name = v.text(\"name\").required(\"Enter a name\").get();\n    let name = match v.finish(|| name) {\n        Ok(name) => name,\n        Err(state) => return edit_page(page, id, &state, &submitted),\n    };\n    // A malformed revision can't match anything: treat it as a conflict.\n    let Ok(revision) = submitted.parse::<Revision>() else {\n        let state = form.with_conflict(submitted.clone(), String::new());\n        return edit_page(page, id, &state, &submitted);\n    };\n    match db.update_if(id, revision, move |_| name).await {\n        Ok(_) => SeeOther::new(\"/customers\")\n            .flash(Flash::new(FlashLevel::Success, \"Customer saved.\"))\n            .into_response(),\n        // Changed meanwhile: show the conflict, keeping the user's entries\n        // and the revision they started from.\n        Err(e) => match e.conflict_revision() {\n            Some(Some(current)) => {\n                let state = form.with_conflict(submitted.clone(), current.to_string());\n                edit_page(page, id, &state, &submitted)\n            }\n            Some(None) => not_found(page),\n            None => StatusCode::INTERNAL_SERVER_ERROR.into_response(),\n        },\n    }\n}\n",
+        "id": "doc-24d8c0123ce15c1e-48",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 331,
+          "source_id": "e0036",
+          "start_line": 315
+        },
+        "code": "use stucco::prelude::*;\n\nfn delete_order(id: u64, revision: &str, token: &str) -> impl Render {\n    let dialog_id = format!(\"delete-order-{id}\");\n    let confirm = Dialog::new(&dialog_id, format!(\"Delete order {id}?\"))\n        .child(Text::new(\"The order and its history are removed.\"))\n        .actions(Dialog::close_button(&dialog_id, \"Cancel\"))\n        .actions(\n            Form::post(format!(\"/orders/{id}/delete\"))\n                .csrf(token)\n                .child(stucco::forms::HiddenInput::new(\"revision\", revision))\n                .child(Button::new(\"Delete order\").submit().variant(Variant::Danger)),\n        );\n    (confirm.link_opener(\"Delete…\", format!(\"/orders/{id}/delete\")), confirm)\n}\n",
+        "id": "doc-24d8c0123ce15c1e-49",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 348,
+          "source_id": "e0036",
+          "start_line": 339
+        },
+        "code": "use stucco::{Bundle, Page, el};\nuse stucco::theme::{Preset, Scheme};\nlet bundle = Bundle::new(Preset::Slate);\nlet html = Page::new(&bundle, \"Account\")\n    .server_theme(Some(Scheme::Dark))\n    .body(el::main().text(\"Server-rendered content\"))\n    .render();\nassert!(!html.contains(\"<script\"));\n",
+        "id": "doc-24d8c0123ce15c1e-50",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 13,
+          "source_id": "e0037",
+          "start_line": 9
+        },
+        "code": "use stucco::{Bundle, theme::Preset};\n\nlet bundle = Bundle::new(Preset::Pine);\n",
+        "id": "doc-64fac973ea2321ad-51",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 33,
+          "source_id": "e0037",
+          "start_line": 21
+        },
+        "code": "use stucco::theme::{Color, Density, Fonts, Radius, Theme, TypeScale};\n\nlet theme = Theme::from_seed(160.0) // accent hue in OKLCH degrees\n    .accent(Color::oklch(0.6, 0.14, 160.0))\n    .neutral_hue(150.0)\n    .neutral_tint(0.012)\n    .fonts(Fonts::system().sans(\"Inter\"))\n    .type_scale(TypeScale::new(16.0, 1.25))\n    .radius(Radius::Round)\n    .density(Density::Compact);\nlet built = theme.build()?; // fails with a report if any pair misses its contrast target\n",
+        "id": "doc-64fac973ea2321ad-52",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 112,
+          "source_id": "e0037",
+          "start_line": 104
+        },
+        "code": "use stucco::theme::{ButtonDepth, LineWeight, Preset, Radius, Theme};\n\n// A bold, graphic look: sharp corners, heavy lines and offset buttons.\nlet theme = Theme::preset(Preset::Slate)\n    .radius(Radius::Sharp)\n    .line_weight(LineWeight::Heavy)\n    .button_depth(ButtonDepth::Offset);\n",
+        "id": "doc-64fac973ea2321ad-53",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 132,
+          "source_id": "e0037",
+          "start_line": 124
+        },
+        "code": "use stucco::theme::{Backdrop, Elevation, Material, Preset, ShadowStyle, Theme};\n\nlet theme = Theme::preset(Preset::Slate)\n    .material(Material::Glass)\n    .backdrop(Backdrop::Glow)\n    .elevation(Elevation::Raised)\n    .shadow_style(ShadowStyle::Layered);\n",
+        "id": "doc-64fac973ea2321ad-54",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 157,
+          "source_id": "e0037",
+          "start_line": 148
+        },
+        "code": "use stucco::theme::{HeaderEdge, HeaderStyle, Pattern, Preset, Relief, Theme};\n\nlet theme = Theme::preset(Preset::Sand)\n    .relief(Relief::Trowel)\n    .header_style(HeaderStyle::Tinted)\n    .pattern(Pattern::Contours)\n    .header_edge(HeaderEdge::Torn)\n    .motif_seed(7);\n",
+        "id": "doc-64fac973ea2321ad-55",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 167,
+          "source_id": "e0037",
+          "start_line": 163
+        },
+        "code": "use stucco::theme::{Finish, Preset, Theme};\n\nlet theme = Theme::preset(Preset::Sand).finish(Finish::Float);\n",
+        "id": "doc-64fac973ea2321ad-56",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 182,
+          "source_id": "e0037",
+          "start_line": 175
+        },
+        "code": "use stucco::theme::{Fonts, Preset, Radius, Seeded, TableStyle, Theme};\n\nlet theme = Theme::preset(Preset::Slate)\n    .fonts(Fonts::seeded(14))\n    .radius(Radius::seeded(14))\n    .table_style(TableStyle::seeded(14));\n",
+        "id": "doc-64fac973ea2321ad-57",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 197,
+          "source_id": "e0037",
+          "start_line": 192
+        },
+        "code": "use stucco::{Bundle, layout::ThemeScope, theme::Preset};\n\nlet bundle = Bundle::new(Preset::Slate).with_theme(\"brand\", Preset::Iris);\nlet promo = ThemeScope::new().named(\"brand\").child(/* … */);\n",
+        "id": "doc-64fac973ea2321ad-58",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 11,
+          "source_id": "e0038",
+          "start_line": 7
+        },
+        "code": "use stucco::theme::{Direction, Radius};\nlet theme = Direction::Atelier.theme().radius(Radius::Soft);\nlet variation = Direction::Prism.guided_v1(42);\n",
+        "id": "doc-480453e72651f178-59",
+        "info": "rust"
+      },
+      {
+        "citation": {
+          "end_line": 90,
+          "source_id": "e0038",
+          "start_line": 85
+        },
+        "code": "use stucco::data::{Sparkline, Timeline, TimelineEntry};\nlet trend = Sparkline::new(\"Tasks per week: 2 to 7 over six weeks\", [2., 3., 3., 5., 4., 7.]);\nlet activity = Timeline::new(\"Recent activity, newest first\")\n    .entry(TimelineEntry::new(\"2026-10-21T14:30:00Z\", \"21 October · 14:30 UTC\", \"Keyboard review complete\"));\n",
+        "id": "doc-480453e72651f178-60",
+        "info": "rust"
+      }
+    ],
+    "warnings": [
+      "Example coverage is limited to collected Markdown code blocks and literal Rust doc attributes/comments. Unlabelled blocks are treated as Rust only in Rust documentation. Macros, cfg_attr, external includes, and generated documentation are not expanded; standalone example programs are still ordinary evidence."
+    ]
+  },
+  "generator": {
+    "name": "symposiast",
+    "version": "0.1.0"
+  },
+  "recipes": [
+    {
+      "input_sha256": "7991ab34cd6a9d3568e5fc7b4214d1c2cd774c1d0a0e140bbb236da62fcb2ea3",
+      "lockfile_path": "lockfiles/static-canvas-shell.lock",
+      "lockfile_sha256": "e815c3c6f12ca58a4a3539d3e7fcc2f3180ebe72d784c4940fc730c45eb7e814",
+      "recipe_id": "static-canvas-shell",
+      "rustc_version": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+      "status": "compiled"
+    }
+  ],
+  "release": {
+    "checksum": "19f39b7ebfa02bb654fd49f10d5a2064da3a0e89c11e0e90a7b22f936f083a8c",
+    "collected_at": "1792810357",
+    "features": {
+      "actions": [
+        "stucco-ui/actions"
+      ],
+      "app": [
+        "navigation",
+        "layout",
+        "stucco-ui/app"
+      ],
+      "axum": [
+        "dep:stucco-tower"
+      ],
+      "collections": [
+        "data",
+        "forms",
+        "navigation",
+        "feedback",
+        "stucco-ui/collections"
+      ],
+      "data": [
+        "stucco-ui/data"
+      ],
+      "default": [
+        "layout",
+        "typography",
+        "actions",
+        "forms",
+        "feedback",
+        "navigation",
+        "overlay",
+        "data",
+        "app"
+      ],
+      "derive": [
+        "collections",
+        "dep:stucco-macros"
+      ],
+      "feedback": [
+        "stucco-ui/feedback"
+      ],
+      "forms": [
+        "actions",
+        "stucco-ui/forms"
+      ],
+      "icons": [
+        "stucco-ui/icons"
+      ],
+      "layout": [
+        "stucco-ui/layout"
+      ],
+      "navigation": [
+        "stucco-ui/navigation"
+      ],
+      "overlay": [
+        "actions",
+        "typography",
+        "stucco-ui/overlay"
+      ],
+      "typography": [
+        "stucco-ui/typography"
+      ]
+    },
+    "name": "stucco",
+    "repository": "https://github.com/mcaveniathor/stucco",
+    "repository_commit": "0bc5845c04bc4c841ca855edde0d86247985dd63",
+    "rust_version": "1.85",
+    "version": "0.5.0"
+  },
+  "review": null,
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "e0001",
+      "kind": "manifest",
+      "path": "evidence/e0001.txt",
+      "sha256": "d3992a64a021680ead2141a3c1ca385c32cb8852ce69a6a00a8ab3778d8b68e9",
+      "url": "https://docs.rs/crate/stucco/0.5.0/source/Cargo.toml"
+    },
+    {
+      "id": "e0002",
+      "kind": "release_metadata",
+      "path": "evidence/e0002.txt",
+      "sha256": "e41057339b740d91d9f4f4c79f915ae863b906de2bc17625fa3a5784fd34a0d7",
+      "url": "https://docs.rs/crate/stucco/0.5.0/source/.cargo_vcs_info.json"
+    },
+    {
+      "id": "e0003",
+      "kind": "readme",
+      "path": "evidence/e0003.txt",
+      "sha256": "c2426dda3f5e25b64d518811d4ba2087127edc4f20ebcad4fb1aa92995d088d2",
+      "url": "https://docs.rs/crate/stucco/0.5.0/source/README.md"
+    },
+    {
+      "id": "e0004",
+      "kind": "readme",
+      "path": "evidence/e0004.txt",
+      "sha256": "2f7068f61b34632d77fccc21cbeafd79e6bc28ca856f550b700eac625e038c96",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/README.md"
+    },
+    {
+      "id": "e0005",
+      "kind": "changelog",
+      "path": "evidence/e0005.txt",
+      "sha256": "480ad48a8a8bb6c585711cbc831c6a286777e66ddfb679bbdeab91e8ddc5482f",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/CHANGELOG.md"
+    },
+    {
+      "id": "e0006",
+      "kind": "api",
+      "path": "evidence/e0006.txt",
+      "sha256": "3f0789a1d0b238e7eb5d7751da64db134828b8237b43e08f4f944248be5d4b67",
+      "url": "https://docs.rs/crate/stucco/0.5.0/source/src/lib.rs"
+    },
+    {
+      "id": "e0007",
+      "kind": "example",
+      "path": "evidence/e0007.txt",
+      "sha256": "4d1409910e378a09b4f5e3603425381ef87a3e31e18be1af25508cbc9f38a360",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/hello/src/main.rs"
+    },
+    {
+      "id": "e0008",
+      "kind": "documentation",
+      "path": "evidence/e0008.txt",
+      "sha256": "60eada19e74049d1f6b97cbaa0f846b42c4a53f11b1296d273a3bf5bed718e6c",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/DESIGN.md"
+    },
+    {
+      "id": "e0009",
+      "kind": "test",
+      "path": "evidence/e0009.txt",
+      "sha256": "23f51d41ba7d8c9dd0bacb54cf56014a5ba6249ebbb9c79940e1b0d44b7df5da",
+      "url": "https://docs.rs/crate/stucco/0.5.0/source/tests/derive.rs"
+    },
+    {
+      "id": "e0010",
+      "kind": "readme",
+      "path": "evidence/e0010.txt",
+      "sha256": "2e2ec4ce50b82e1040654462bcf7cda27b9568fa8febe46ffc8624286822d205",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/orders/README.md"
+    },
+    {
+      "id": "e0011",
+      "kind": "manifest",
+      "path": "evidence/e0011.txt",
+      "sha256": "4098fc2474d8ebdbed55f68fa35dc39fc371b2382cec4d4b91a67ac230a9098d",
+      "url": "https://docs.rs/crate/stucco/0.5.0/source/Cargo.toml.orig"
+    },
+    {
+      "id": "e0012",
+      "kind": "example",
+      "path": "evidence/e0012.txt",
+      "sha256": "d9228dcaff6ff7166b9922ce9c3510ce30b4514c816b3b29483f4a5240154039",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/orders/src/form.rs"
+    },
+    {
+      "id": "e0013",
+      "kind": "documentation",
+      "path": "evidence/e0013.txt",
+      "sha256": "19753e488323d714c20a9b39c70cad6e4485ac0562186f032ee4ccf582bac2c8",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/RELEASING.md"
+    },
+    {
+      "id": "e0014",
+      "kind": "manifest",
+      "path": "evidence/e0014.txt",
+      "sha256": "006279a0423bd9843922664a175fc1a0e26d3cfbe8d022ff74bd02c1b8943a3b",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/Cargo.toml"
+    },
+    {
+      "id": "e0015",
+      "kind": "example",
+      "path": "evidence/e0015.txt",
+      "sha256": "f1a25b4865ec9dfcf73f437d55e559d0e43b22f034cee42b5f7dac3ef1501714",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/orders/src/handlers.rs"
+    },
+    {
+      "id": "e0016",
+      "kind": "documentation",
+      "path": "evidence/e0016.txt",
+      "sha256": "6395cf5a9a3171c59327a145adf9c7710d3bd28c8cde32a4fb6bbaf5771ee643",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/docs/roadmap-0.2.md"
+    },
+    {
+      "id": "e0017",
+      "kind": "example",
+      "path": "evidence/e0017.txt",
+      "sha256": "e6bc7124b4628a34ebede9a0933563dd56e570e08119e4c597142207b442adc2",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/orders/src/lib.rs"
+    },
+    {
+      "id": "e0018",
+      "kind": "documentation",
+      "path": "evidence/e0018.txt",
+      "sha256": "8b22d113c36c10e29535cf4d9a45d2953e94378dc21790c794e3d9de0fbeae06",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/docs/visual-design-baseline.md"
+    },
+    {
+      "id": "e0019",
+      "kind": "example",
+      "path": "evidence/e0019.txt",
+      "sha256": "21c2501c4472d9d2db841f5861c76d71d9998913ad377599f7d37d67e022eda1",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/orders/src/main.rs"
+    },
+    {
+      "id": "e0020",
+      "kind": "documentation",
+      "path": "evidence/e0020.txt",
+      "sha256": "53af6ff4038635305cfe2c0f0021bdaaaf1fa154ae2fb9bcbce833091289f754",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/docs/visual-design-validation.md"
+    },
+    {
+      "id": "e0021",
+      "kind": "example",
+      "path": "evidence/e0021.txt",
+      "sha256": "58379fa90ec4e5c4a56d70b75e2a66e0fc90c913df19a50e5467b2ce3f40c8b8",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/orders/src/model.rs"
+    },
+    {
+      "id": "e0022",
+      "kind": "documentation",
+      "path": "evidence/e0022.txt",
+      "sha256": "631f9b4e5bfa388b6fc4db8a9790b8e3e0a46839c6d3afc76e6d7f799c8ac012",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/docs/guide/atelier.md"
+    },
+    {
+      "id": "e0023",
+      "kind": "example",
+      "path": "evidence/e0023.txt",
+      "sha256": "a0489ba503ed15c420056ce4b2a2f39b185c54047ad7d3904462d58e26c87cae",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/orders/src/source.rs"
+    },
+    {
+      "id": "e0024",
+      "kind": "documentation",
+      "path": "evidence/e0024.txt",
+      "sha256": "bc4747a5ee1f0715f742035fc20854f3201d84bcf5ec394413b38d4cc681575a",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/docs/guide/cli.md"
+    },
+    {
+      "id": "e0025",
+      "kind": "example",
+      "path": "evidence/e0025.txt",
+      "sha256": "19d6c5325905a7defb7b7c292ef83ac2f420a87e2bbcbd53a25018e1eead0898",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/orders/tests/crud.rs"
+    },
+    {
+      "id": "e0026",
+      "kind": "documentation",
+      "path": "evidence/e0026.txt",
+      "sha256": "f76eeababf675d283eed04fca542f2dbf78610a0b199966fea8b895f14f4e664",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/docs/guide/collections.md"
+    },
+    {
+      "id": "e0027",
+      "kind": "example",
+      "path": "evidence/e0027.txt",
+      "sha256": "9749deb86efa7cc6297852851f6b69c4e56b0cdae8c3177393d54b461b61ea34",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/orders/tests/http.rs"
+    },
+    {
+      "id": "e0028",
+      "kind": "documentation",
+      "path": "evidence/e0028.txt",
+      "sha256": "121027d2476fdbaf42a599ce317b7e010878c437735c4b40fdbcffbe90b036a0",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/docs/guide/components.md"
+    },
+    {
+      "id": "e0029",
+      "kind": "example",
+      "path": "evidence/e0029.txt",
+      "sha256": "e669be1eeb9e6e544b8a364e18d7c187393002def80f6fab9914295c5d82ca21",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/orders/tests/startup.rs"
+    },
+    {
+      "id": "e0030",
+      "kind": "documentation",
+      "path": "evidence/e0030.txt",
+      "sha256": "3b28d3f70b75bd13e4a43e9693b903fd30cd5272bad749a9f15f9ff3e44cecac",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/docs/guide/enhancement.md"
+    },
+    {
+      "id": "e0031",
+      "kind": "example",
+      "path": "evidence/e0031.txt",
+      "sha256": "6f7476980db54399a130f410998455efc63521b021a28233d13d535bdf455705",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/showcase/src/lib.rs"
+    },
+    {
+      "id": "e0032",
+      "kind": "documentation",
+      "path": "evidence/e0032.txt",
+      "sha256": "76e3801711daa8b2cecd0c6d35a2fe0714ace4be2debc1afdb2679b4b20afd3f",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/docs/guide/forms.md"
+    },
+    {
+      "id": "e0033",
+      "kind": "example",
+      "path": "evidence/e0033.txt",
+      "sha256": "7ec15e79c59bc14b86436a17e5eb7926b46cbcaeb08e1a7e6c110b415e6eb2a2",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/showcase/fonts/OFL-DM-Sans.txt"
+    },
+    {
+      "id": "e0034",
+      "kind": "documentation",
+      "path": "evidence/e0034.txt",
+      "sha256": "4fed45fb3a66ad8ec7476880b44f286bef6dda64f6873822a9285ae6562af33a",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/docs/guide/getting-started.md"
+    },
+    {
+      "id": "e0035",
+      "kind": "example",
+      "path": "evidence/e0035.txt",
+      "sha256": "865f0949b59fab5925506f80102dff3d12e8666412daf52d212db969d40adc25",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/examples/showcase/fonts/OFL-Newsreader.txt"
+    },
+    {
+      "id": "e0036",
+      "kind": "documentation",
+      "path": "evidence/e0036.txt",
+      "sha256": "3791a9d5b82f8ef3ba1306a9f0b29cd56c812295823ec04071517c94ded90682",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/docs/guide/recipes.md"
+    },
+    {
+      "id": "e0037",
+      "kind": "documentation",
+      "path": "evidence/e0037.txt",
+      "sha256": "41b91eb2465ee8afce8ab36c72bd8eb33f46c587c733d4b27d1ae05d5556db9d",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/docs/guide/theming.md"
+    },
+    {
+      "id": "e0038",
+      "kind": "documentation",
+      "path": "evidence/e0038.txt",
+      "sha256": "336534c40b69b5fa2cf9c4e04b4c4a665a774a3894303086a80cd9a85ef5102b",
+      "url": "https://github.com/mcaveniathor/stucco/blob/0bc5845c04bc4c841ca855edde0d86247985dd63/docs/guide/visual-design.md"
+    }
+  ],
+  "warnings": [
+    "Collection is bounded to 48 UTF-8 evidence files, 48 KiB per file, and 320 KiB total; examples and API documentation are sampled, not exhaustive. Rendered documentation and external documentation sites are not crawled.",
+    "Pinned repository archive: 1 link or special-file entries were rejected without following or extracting them.",
+    "5 distinct eligible source files were omitted by the evidence budget; 38 files selected."
+  ]
+}

@@ -35,5 +35,18 @@
       "simulation"
     ],
     "bundle_release": null
+  },
+  {
+    "entry": "stucco-0-5-0",
+    "summary": "Export a static browser-game shell with a stable canvas, labelled controls, explicit theme, and linked content-hashed assets.",
+    "tags": [
+      "web",
+      "html",
+      "static sites",
+      "canvas",
+      "games",
+      "forms"
+    ],
+    "bundle_release": null
   }
 ]
