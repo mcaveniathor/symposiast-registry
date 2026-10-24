@@ -1,0 +1,7 @@
+depends-on = ["bevy_app==0.20.0"]
+name = "symposiast-bevy_app-4758d7c5"
+
+[[skills]]
+
+[skills.source]
+path = "skills"

@@ -11,5 +11,29 @@
       "components"
     ],
     "bundle_release": "stucco-0.3.0-r1"
+  },
+  {
+    "entry": "bevy_app-0-20-0",
+    "summary": "Compose synchronous plugins and drive custom simulation schedules explicitly or through App::update.",
+    "tags": [
+      "bevy",
+      "ecs",
+      "plugins",
+      "schedules",
+      "simulation"
+    ],
+    "bundle_release": null
+  },
+  {
+    "entry": "bevy_ecs-0-20-0",
+    "summary": "Build standalone component simulation with resources, filtered queries, and explicitly ordered systems.",
+    "tags": [
+      "bevy",
+      "ecs",
+      "components",
+      "resources",
+      "simulation"
+    ],
+    "bundle_release": null
   }
 ]
