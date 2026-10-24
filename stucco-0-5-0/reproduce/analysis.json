@@ -1,0 +1,490 @@
+{
+  "summary": "Focused guidance for generating a static browser-game shell with Stucco 0.5.0: linked content-hashed assets, a fixed canvas mount, labelled controls, and an explicit theme. No Axum dependency or Stucco enhancement runtime is required by this recipe. The game loader and game simulation remain separate responsibilities. See the generated verification record for compilation status; runtime trials are documented separately.",
+  "example_coverage": [
+    {
+      "example_id": "doc-403dabee035e1211-1",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-1a62a38631e53597-2",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-1a62a38631e53597-3",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-1a62a38631e53597-4",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-1a62a38631e53597-5",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-009efc5a9c870a09-6",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-009efc5a9c870a09-7",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-009efc5a9c870a09-8",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-2a0f140a86a74152-9",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-37e1ff775b0df319-10",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-37e1ff775b0df319-11",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-555b16af49c41482-12",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-555b16af49c41482-13",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-555b16af49c41482-14",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-555b16af49c41482-15",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-555b16af49c41482-16",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-555b16af49c41482-17",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-555b16af49c41482-18",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-6f445d44af831022-19",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-6f445d44af831022-20",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-6f445d44af831022-21",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-6f445d44af831022-22",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-6f445d44af831022-23",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-6f445d44af831022-24",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-6f445d44af831022-25",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-6f445d44af831022-26",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-6f445d44af831022-27",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-8803a58760042a28-28",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-8803a58760042a28-29",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-f7159b1d55fecb00-30",
+      "disposition": "supporting",
+      "recipe_ids": [
+        "static-canvas-shell"
+      ],
+      "reason": "Use the documented Field and Input construction with an explicit control ID."
+    },
+    {
+      "example_id": "doc-f7159b1d55fecb00-31",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-f7159b1d55fecb00-32",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-f7159b1d55fecb00-33",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-f7159b1d55fecb00-34",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-f7159b1d55fecb00-35",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-f7159b1d55fecb00-36",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-f7159b1d55fecb00-37",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-6744007019ea6219-38",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-6744007019ea6219-39",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-24d8c0123ce15c1e-40",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-24d8c0123ce15c1e-41",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-24d8c0123ce15c1e-42",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-24d8c0123ce15c1e-43",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-24d8c0123ce15c1e-44",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-24d8c0123ce15c1e-45",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-24d8c0123ce15c1e-46",
+      "disposition": "adapted",
+      "recipe_ids": [
+        "static-canvas-shell"
+      ],
+      "reason": "Combine static asset export and explicit theme selection into a complete canvas shell."
+    },
+    {
+      "example_id": "doc-24d8c0123ce15c1e-47",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-24d8c0123ce15c1e-48",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-24d8c0123ce15c1e-49",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-24d8c0123ce15c1e-50",
+      "disposition": "adapted",
+      "recipe_ids": [
+        "static-canvas-shell"
+      ],
+      "reason": "Combine static asset export and explicit theme selection into a complete canvas shell."
+    },
+    {
+      "example_id": "doc-64fac973ea2321ad-51",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-64fac973ea2321ad-52",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-64fac973ea2321ad-53",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-64fac973ea2321ad-54",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-64fac973ea2321ad-55",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-64fac973ea2321ad-56",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-64fac973ea2321ad-57",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-64fac973ea2321ad-58",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-480453e72651f178-59",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    },
+    {
+      "example_id": "doc-480453e72651f178-60",
+      "disposition": "skipped",
+      "recipe_ids": [],
+      "reason": "Outside the focused static canvas shell and asset export task; this entry does not claim broad API coverage."
+    }
+  ],
+  "findings": [
+    {
+      "id": "static-assets",
+      "title": "Export linked assets with the generated page",
+      "guidance": "Render Page into index.html and write every Bundle::paths entry using Bundle::get. The default page links assets under /_stucco/. Serve the output directory as the site root so those absolute URLs resolve. No Axum feature or dynamic HTTP service is needed to generate these files. A static host is still needed to deliver the game over HTTP.",
+      "basis": "documented",
+      "features": [],
+      "citations": [
+        {
+          "source_id": "e0036",
+          "start_line": 179,
+          "end_line": 195
+        },
+        {
+          "source_id": "e0030",
+          "start_line": 48,
+          "end_line": 50
+        }
+      ]
+    },
+    {
+      "id": "stable-canvas",
+      "title": "Keep a fixed canvas mount in trusted application markup",
+      "guidance": "Use Raw::trusted only for developer-authored static canvas markup with a fixed ID; use normal escaped components for player-provided text. The game client can select that ID and own the canvas contents. Keeping it mounted during UI updates is an application responsibility, not a Stucco lifecycle guarantee.",
+      "basis": "inferred",
+      "features": [],
+      "citations": [
+        {
+          "source_id": "e0028",
+          "start_line": 47,
+          "end_line": 58
+        }
+      ]
+    },
+    {
+      "id": "script-free-shell",
+      "title": "Choose an explicit theme for a shell without Stucco scripts",
+      "guidance": "Page::server_theme(Some(Scheme::Dark)) omits the localStorage theme initializer. With simple elements and components that have no JavaScript behavior, and without enhanced(), the shell can render without script tags. Adding enhanced navigation or scripted components changes that requirement. The game loader must be supplied separately.",
+      "basis": "documented",
+      "features": [],
+      "citations": [
+        {
+          "source_id": "e0036",
+          "start_line": 333,
+          "end_line": 353
+        }
+      ]
+    },
+    {
+      "id": "minimal-features",
+      "title": "Enable only the component groups used by the shell",
+      "guidance": "Use default-features = false with layout, typography, and forms for this recipe. The facade enables forms dependencies automatically; do not enable axum merely to export a static page. Field provides the label and Input provides the explicit control ID used by application code.",
+      "basis": "documented",
+      "features": [
+        "layout",
+        "typography",
+        "forms"
+      ],
+      "citations": [
+        {
+          "source_id": "e0011",
+          "start_line": 20,
+          "end_line": 38
+        },
+        {
+          "source_id": "e0032",
+          "start_line": 8,
+          "end_line": 28
+        },
+        {
+          "source_id": "e0028",
+          "start_line": 49,
+          "end_line": 58
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "static-canvas-shell",
+      "title": "Export a static canvas shell with content-hashed assets",
+      "description": "Generate index.html, export all Stucco bundle assets, and assert a unique canvas ID, labelled player input, linked stylesheet, and absence of Stucco script tags. Accepts an optional output directory. Does not load a game, execute WebAssembly, or verify a browser rendering.",
+      "code": "use std::{env, fs, io, path::PathBuf};\nuse stucco::prelude::*;\nuse stucco::{Raw, theme::Scheme};\n\nfn main() -> io::Result<()> {\n    let output = env::args_os().nth(1).map(PathBuf::from)\n        .unwrap_or_else(|| PathBuf::from(\"public\"));\n    let bundle = Bundle::new(Preset::Slate);\n    // Only application-authored static markup belongs in Raw::trusted.\n    let canvas = Raw::trusted(r#\"<canvas id=\"game-canvas\" width=\"960\" height=\"540\" aria-label=\"Game view\">Your browser needs canvas support.</canvas>\"#);\n    let html = Page::new(&bundle, \"Game shell\")\n        .server_theme(Some(Scheme::Dark))\n        .main(Stack::new()\n            .child(Heading::new(1, \"Game shell\"))\n            .child(Field::new(\"Player name\", Input::text(\"name\").id(\"player-name\")))\n            .child(canvas))\n        .render();\n\n    assert_eq!(html.matches(\"id=\\\"game-canvas\\\"\").count(), 1);\n    assert!(html.contains(\"<canvas \"));\n    assert!(html.contains(\"for=\\\"player-name\\\"\"));\n    assert!(!html.contains(\"<script\"));\n    assert!(html.contains(bundle.stylesheet_url()));\n\n    fs::create_dir_all(&output)?;\n    for path in bundle.paths() {\n        let file = bundle.get(&path).expect(\"listed bundle path exists\");\n        let destination = output.join(path.trim_start_matches('/'));\n        fs::create_dir_all(destination.parent().expect(\"asset parent\"))?;\n        fs::write(destination, file.bytes.as_ref())?;\n    }\n    fs::write(output.join(\"index.html\"), html)?;\n    assert!(output.join(bundle.stylesheet_url().trim_start_matches('/')).is_file());\n    Ok(())\n}\n",
+      "default_features": false,
+      "features": [
+        "layout",
+        "typography",
+        "forms"
+      ],
+      "dependencies": {},
+      "citations": [
+        {
+          "source_id": "e0036",
+          "start_line": 179,
+          "end_line": 195
+        },
+        {
+          "source_id": "e0036",
+          "start_line": 333,
+          "end_line": 353
+        },
+        {
+          "source_id": "e0028",
+          "start_line": 47,
+          "end_line": 58
+        },
+        {
+          "source_id": "e0011",
+          "start_line": 20,
+          "end_line": 38
+        },
+        {
+          "source_id": "e0032",
+          "start_line": 8,
+          "end_line": 28
+        }
+      ]
+    }
+  ]
+}

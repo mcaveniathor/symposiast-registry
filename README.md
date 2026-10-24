@@ -13,6 +13,7 @@ This is an independent community registry, separate from [Symposium's official r
 | Crate | Release | Recipes | Verification | Guidance |
 | --- | --- | --- | --- | --- |
 | Stucco | 0.3.0 | Static pages, Axum fragments, status components, derived tables, validation and themes | Six recipes compiled; agent review approved | [Read the skill](stucco-0-3-0/skills/stucco-1a8c8f73-guide/SKILL.md) |
+| Stucco | 0.5.0 | Static canvas shell with labelled controls and hashed assets | One recipe compiled; imported analysis | [Read the skill](stucco-0-5-0/skills/stucco-adc7ae09-guide/SKILL.md) |
 | Bevy App | 0.20.0 | Plugin-owned simulation ticks; custom phases in App::update | Two recipes compiled; imported analysis | [Read the skill](bevy_app-0-20-0/skills/bevy-app-4758d7c5-guide/SKILL.md) |
 | Bevy ECS | 0.20.0 | Resource-configured component movement with explicit system order | One recipe compiled; imported analysis | [Read the skill](bevy_ecs-0-20-0/skills/bevy-ecs-81c97279-guide/SKILL.md) |
 
@@ -35,7 +36,7 @@ cargo agents sync
 cargo agents status
 ```
 
-The Stucco skill matches `stucco==0.3.0`; the Bevy skills match `bevy_app==0.20.0` and `bevy_ecs==0.20.0`. Each release's skill has a distinct identity. Unsupported releases do not receive another release's guidance. This registry supplies skills and their references; it does not register hooks or MCP servers or require the Symposiast executable.
+The Stucco skills match `stucco==0.3.0` and `stucco==0.5.0`; the Bevy skills match `bevy_app==0.20.0` and `bevy_ecs==0.20.0`. Each release's skill has a distinct identity. Unsupported releases do not receive another release's guidance. This registry supplies skills and their references; it does not register hooks or MCP servers or require the Symposiast executable.
 
 The portable entry is validated with Symposium 0.5.1. Confirm the resolved version and source in your own workspace before applying a recipe. Avoid installing both this entry and the full runtime plugin for the same release in one workspace, since they share the skill identity.
 
@@ -45,7 +46,9 @@ After syncing, reload your agent session if needed and ask it to consult the ins
 
 The skill includes all frozen evidence and a [provenance record](stucco-0-3-0/skills/stucco-1a8c8f73-guide/references/provenance.json), including source URLs and hashes, original release metadata, compilation fingerprints, and dependency lockfiles. Paths in the record are relative to its directory. Compilation establishes that the recorded recipe inputs passed Cargo checks; it does not establish runtime behavior. The original bundle schema does not record the verification platform.
 
-The Stucco analysis was generated with Codex, refined through a structured analysis import, reviewed with Codex, and compiled with Rust 1.99.1 on Linux x86_64. All six recipes have current successful compilation records. No consumer runtime trials or human review are claimed. The active 0.2.1 entry was removed when 0.3.0 was published; historical download archives remain available.
+The Stucco 0.3.0 analysis was generated with Codex, refined through a structured analysis import, reviewed with Codex, and compiled with Rust 1.99.1 on Linux x86_64. All six recipes have current successful compilation records. No consumer runtime trials or human review are claimed. The active 0.2.1 entry was removed when 0.3.0 was published; historical download archives remain available.
+
+The focused Stucco 0.5.0 entry uses imported analysis with no separate agent review. Its [reproduction instructions](stucco-0-5-0/reproduce/README.md) explain the frozen-evidence reuse, native compilation, and separate static-export runtime assertions. It does not implement or execute a game client. No full 0.5.0 bundle release has been published.
 
 The Bevy entries use imported analysis and have no recorded separate agent review. Their [App reproduction instructions](bevy_app-0-20-0/reproduce/README.md) and [ECS reproduction instructions](bevy_ecs-0-20-0/reproduce/README.md) include generator revision, feature selection, and collection limits. No full Bevy bundle release has been published.
 
@@ -80,3 +83,5 @@ The [site development guide](site/README.md) describes local preview, catalog fi
 Stucco source excerpts retain their upstream MIT or Apache-2.0 licenses. Both license texts are retained alongside the exported guidance: [MIT](stucco-0-3-0/notices/LICENSE-MIT) and [Apache-2.0](stucco-0-3-0/notices/LICENSE-APACHE), with [source hashes](stucco-0-3-0/notices/provenance.json). The source URLs and hashes identify the retained excerpts. Preserve these notices when redistributing the guidance.
 
 Bevy source excerpts are MIT OR Apache-2.0. Each entry retains both upstream notices at the published commit: [App notices](bevy_app-0-20-0/notices/provenance.json) and [ECS notices](bevy_ecs-0-20-0/notices/provenance.json).
+
+The Stucco 0.5.0 entry separately retains the [upstream MIT and Apache-2.0 notices](stucco-0-5-0/notices/provenance.json) from its exact published repository commit.
